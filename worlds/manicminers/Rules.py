@@ -73,7 +73,7 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
     world.set_rule(entrance_lrr_lakeoffire, Has("Level Access: LRR - Lake Of Fire"))
     world.set_rule(entrance_lrr_lavalaughter, (rule_can_breathe & Has("Level Access: LRR - Lava Laughter")))
     world.set_rule(entrance_lrr_oresome, Has("Level Access: LRR - Oresome"))
-    world.set_rule(entrance_lrr_rockhard, (rule_can_blast & Has("Level Access: LRR - Rock Hard") & rule_can_always_breathe))
+    world.set_rule(entrance_lrr_rockhard, ((Has("Item Unlock: Dynamite") | rule_can_build_mininglaser) & Has("Level Access: LRR - Rock Hard") & rule_can_always_breathe))
     world.set_rule(entrance_lrr_rockyhorror, (rule_can_breathe & Has("Level Access: LRR - Rocky Horror")))
     world.set_rule(entrance_lrr_rubbletrouble, Has("Level Access: LRR - Rubble Trouble"))
     world.set_rule(entrance_lrr_runthegauntlet, Has("Level Access: LRR - Run The Gauntlet"))
