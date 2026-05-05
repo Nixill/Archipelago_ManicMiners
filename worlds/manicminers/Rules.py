@@ -132,7 +132,7 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
     world.set_rule(entrance_lrrr_breathless, (rule_can_breathe & rule_can_build_geologicalcenter & Has("Level Access: LRRR - Breathless")))
     world.set_rule(entrance_lrrr_dontpanic, Has("Level Access: LRRR - Don't Panic"))
     world.set_rule(entrance_lrrr_drillernight, Has("Level Access: LRRR - Driller Night"))
-    world.set_rule(entrance_lrrr_erodeworks, (Has("Item Unlock: Dyanmite") & Has("Level Access: LRRR - Erode Works")))
+    world.set_rule(entrance_lrrr_erodeworks, (Has("Item Unlock: Dynamite") & Has("Level Access: LRRR - Erode Works")))
     world.set_rule(entrance_lrrr_explosiveaction, (rule_can_swim & rule_can_build_supportstation & Has("Level Access: LRRR - Explosive Action")))
     world.set_rule(entrance_lrrr_fireandwater, (rule_can_breathe & (rule_can_build_rapidrider | rule_can_fly) & Has("Level Access: LRRR - Fire And Water")))
     world.set_rule(entrance_lrrr_frozenfrenzy, (rule_can_breathe & rule_can_blast & (rule_can_flydrill | rule_can_build_rapidrider) & Has("Level Access: LRRR - Frozen Frenzy")))
