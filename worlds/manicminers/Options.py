@@ -56,6 +56,7 @@ class TargetTimesAreChecks(DefaultOnToggle):
 class TargetTimeDifficulty(Choice):
     """
     How difficult the target times are per level. 
+    Caution is strongly advised when using Rock Hard targets in a multiplayer sync - they are very difficult. 
     """
     
     display_name = "Target Time Difficulty"
@@ -90,7 +91,7 @@ class VehiclesAreItems(DefaultOnToggle):
 
 class BreathingAlwaysInLogic(Toggle):
     """
-    Whether the ability to build a Support Station is logically required for levels with limited air.
+    Whether the ability to build a Support Station is logically required for all levels with limited air.
     When enabled, some levels that can be comfortably beaten before the air runs out will remain out of logic. 
     Has no effect if Buildings Are Items is disabled.
     """
