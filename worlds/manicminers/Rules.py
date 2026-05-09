@@ -128,7 +128,7 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
 
     world.set_rule(entrance_lrrr_abreathoffreshair, (rule_can_breathe & rule_can_blast & Has("Level Access: LRRR - A Breath Of Fresh Air")))
     world.set_rule(entrance_lrrr_airraiders, (rule_can_breathe & rule_can_blast & Has("Level Access: LRRR - Air Raiders")))
-    world.set_rule(entrance_lrrr_backtobasics, (rule_can_breathe & rule_can_build_toolstore & rule_can_build_upgradestation & Has("Item Unlock: Electric Fence) & Has("Level Access: LRRR - Back To Basics")))
+    world.set_rule(entrance_lrrr_backtobasics, (rule_can_breathe & rule_can_build_toolstore & rule_can_build_upgradestation & Has("Item Unlock: Electric Fence") & Has("Level Access: LRRR - Back To Basics")))
     world.set_rule(entrance_lrrr_breathless, (rule_can_breathe & rule_can_build_geologicalcenter & Has("Level Access: LRRR - Breathless")))
     world.set_rule(entrance_lrrr_dontpanic, Has("Level Access: LRRR - Don't Panic"))
     world.set_rule(entrance_lrrr_drillernight, Has("Level Access: LRRR - Driller Night"))
