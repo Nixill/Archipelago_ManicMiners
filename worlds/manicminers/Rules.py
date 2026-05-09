@@ -29,6 +29,8 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
     rule_can_build_superteleport = Has("Building Unlock: Super Teleport") & rule_can_build_supportstation
     rule_can_breathe = rule_can_build_supportstation
     rule_can_always_breathe = Filtered(rule_can_breathe, options = [OptionFilter(ManicMiners_Options.BreathingAlwaysInLogic, 1)], filtered_resolution = True)
+    rule_can_build_smalldigger = Has("Vehicle Unlock: Small Digger") & rule_can_build_supportstation & Filtered(rule_can_build_upgradestation, options = [OptionFilter(ManicMiners_Options.FasterBlastingAlwaysInLogic, 1)], filtered_resolution = True)
+    rule_can_build_smlc = Has("Vehicle Unlock: Small Mobile Laser Cutter") & rule_can_build_supportstation & Filtered(rule_can_build_upgradestation, options = [OptionFilter(ManicMiners_Options.FasterBlastingAlwaysInLogic, 1)], filtered_resolution = True)
     rule_can_build_rapidrider = rule_can_build_docks & Has("Vehicle Unlock: Rapid Rider")
     rule_can_build_cargocarrier = rule_can_build_docks & Has("Vehicle Unlock: Cargo Carrier")
     rule_can_build_tunnelscout = rule_can_build_teleportpad & Has("Vehicle Unlock: Tunnel Scout")
@@ -38,11 +40,11 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
     rule_can_jump = rule_can_build_hoverscout | rule_can_build_granitegrinder
     rule_can_fly = rule_can_build_tunnelscout | rule_can_build_tunneltransport
     rule_can_swim = rule_can_fly | rule_can_build_rapidrider | rule_can_build_cargocarrier
-    rule_can_vehicle_lase = (Has("Vehicle Unlock: Small Mobile Laser Cutter") & rule_can_build_supportstation) | (HasAny("Vehicle Unlock: Chrome Crusher","Vehicle Unlock: Large Mobile Laser Cutter") & rule_can_build_superteleport)
+    rule_can_vehicle_lase = rule_can_build_smlc | (HasAny("Vehicle Unlock: Chrome Crusher","Vehicle Unlock: Large Mobile Laser Cutter") & rule_can_build_superteleport)
     rule_can_lase = rule_can_vehicle_lase | rule_can_build_mininglaser
     rule_can_flying_lase = rule_can_vehicle_lase & rule_can_build_tunneltransport
     rule_can_flydrill = (rule_can_build_tunnelscout & rule_can_build_upgradestation) | rule_can_flying_lase
-    rule_can_blast = Has("Item Unlock: Dynamite") | rule_can_lase | (rule_can_build_supportstation & Has("Vehicle Unlock: Small Digger")) | rule_can_build_granitegrinder
+    rule_can_blast = Has("Item Unlock: Dynamite") | rule_can_lase | rule_can_build_smalldigger | rule_can_build_granitegrinder
 
     #LRR
 

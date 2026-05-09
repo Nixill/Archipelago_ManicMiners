@@ -98,6 +98,16 @@ class BreathingAlwaysInLogic(Toggle):
     
     display_name = "Breathing Always In Logic"
 
+class FasterBlastingAlwaysInLogic(DefaultOnToggle):
+    """
+    The Small Mobile Laser Cutter and Small Digger are often in logic for their ability to get through hard rock walls, but both are quite slow at it. The Upgrade Station allows some improvement. 
+    When this setting is enabled, any time that the Small Digger or SMLC is required by logic, so is the Upgrade Station. 
+    """
+    
+    display_name = "Breathing Always In Logic"
+
+
+
 class CampaignSelectionLRR(DefaultOnToggle):
     """
     Whether your game will include the Standard campaign levels.
@@ -138,6 +148,7 @@ class ManicMinersOptions(PerGameCommonOptions):
     items_are_items: ItemsAreItems
     vehicles_are_items: VehiclesAreItems
     breathing_always_in_logic: BreathingAlwaysInLogic
+    faster_blasting_always_in_logic: FasterBlastingAlwaysInLogic
     campaign_selection_lrr: CampaignSelectionLRR
     campaign_selection_lrrr: CampaignSelectionLRRR
     campaign_selection_lrrc: CampaignSelectionLRRC
@@ -163,6 +174,6 @@ option_groups = [
     ),
     OptionGroup(
         "Logic",
-        [BreathingAlwaysInLogic]
+        [BreathingAlwaysInLogic,FasterBlastingAlwaysInLogic]
     ),
 ]
