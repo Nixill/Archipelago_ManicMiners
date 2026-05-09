@@ -361,31 +361,31 @@ for level in TARGET_CLEAR_TIME_LRR_ROCK_HARD:
     TARGET_TOTAL_CLEAR_TIME_LRR_ROCK_HARD += TARGET_CLEAR_TIME_LRR_ROCK_HARD[level]
 
 TARGET_CLEAR_TIME_LRRR_EASY = {
-    "LRRR - A Breath Of Fresh Air": 840, # 14:00
-    "LRRR - Air Raiders": 1800, # 30:00
-    "LRRR - Back To Basics": 3000, # 50:00
-    "LRRR - Breathless": 900, # 15:00
-    "LRRR - Don't Panic": 420, # 07:00
-    "LRRR - Driller Night": 300, # 05:00
-    "LRRR - Erode Works": 1680, # 28:00
-    "LRRR - Explosive Action": 1680, # 28:00
-    "LRRR - Fire And Water": 840, # 14:00
-    "LRRR - Frozen Frenzy": 2100, # 35:00
-    "LRRR - Hot Stuff": 3600, # 60:00
-    "LRRR - Ice Spy": 2700, # 45:00
-    "LRRR - It's A Hold Up": 1500, # 25:00
-    "LRRR - Lake Of Fire": 1800, # 30:00
-    "LRRR - Lava Laughter": 1800, # 30:00
-    "LRRR - Oresome": 1200, # 20:00
-    "LRRR - Rock Hard": 1800, # 30:00
-    "LRRR - Rocky Horror": 6300, # 105:00
-    "LRRR - Rubble Trouble": 660, # 11:00
-    "LRRR - Run The Gauntlet": 600, # 10:00
-    "LRRR - Search And Rescue": 900, # 15:00
-    "LRRR - Split Down The Middle": 1200, # 20:00 
-    "LRRR - The Path To Power": 660, # 11:00
-    "LRRR - Water Lot Of Fun": 660, # 11:00
-    "LRRR - Water Works": 1500, # 25:00
+    "LRRR - A Breath Of Fresh Air": 1800, # 30:00
+    "LRRR - Air Raiders": 3600, # 60:00
+    "LRRR - Back To Basics": 7200, # 120:00
+    "LRRR - Breathless": 1800, # 30:00
+    "LRRR - Don't Panic": 900, # 15:00
+    "LRRR - Driller Night": 600, # 10:00
+    "LRRR - Erode Works": 3600, # 60:00
+    "LRRR - Explosive Action": 3600, # 60:00
+    "LRRR - Fire And Water": 1800, # 30:00
+    "LRRR - Frozen Frenzy": 3600, # 60:00
+    "LRRR - Hot Stuff": 7200, # 120:00
+    "LRRR - Ice Spy": 5400, # 90:00
+    "LRRR - It's A Hold Up": 3000, # 50:00
+    "LRRR - Lake Of Fire": 3600, # 60:00
+    "LRRR - Lava Laughter": 3600, # 60:00
+    "LRRR - Oresome": 2400, # 40:00
+    "LRRR - Rock Hard": 3600, # 60:00
+    "LRRR - Rocky Horror": 12600, # 210:00
+    "LRRR - Rubble Trouble": 1500, # 25:00
+    "LRRR - Run The Gauntlet": 1200, # 20:00
+    "LRRR - Search And Rescue": 1800, # 30:00
+    "LRRR - Split Down The Middle": 2400, # 40:00 
+    "LRRR - The Path To Power": 1500, # 25:00
+    "LRRR - Water Lot Of Fun": 1500, # 25:00
+    "LRRR - Water Works": 3000, # 50:00
 }
 
 TARGET_TOTAL_CLEAR_TIME_LRRR_EASY = 0
@@ -393,31 +393,31 @@ for level in TARGET_CLEAR_TIME_LRRR_EASY:
     TARGET_TOTAL_CLEAR_TIME_LRRR_EASY += TARGET_CLEAR_TIME_LRRR_EASY[level]
 
 TARGET_CLEAR_TIME_LRRR_MEDIUM = {
-    "LRRR - A Breath Of Fresh Air": 840, # 14:00
-    "LRRR - Air Raiders": 1800, # 30:00
-    "LRRR - Back To Basics": 3000, # 50:00
-    "LRRR - Breathless": 900, # 15:00
-    "LRRR - Don't Panic": 420, # 07:00
-    "LRRR - Driller Night": 300, # 05:00
-    "LRRR - Erode Works": 1680, # 28:00
-    "LRRR - Explosive Action": 1680, # 28:00
-    "LRRR - Fire And Water": 840, # 14:00
-    "LRRR - Frozen Frenzy": 2100, # 35:00
-    "LRRR - Hot Stuff": 3600, # 60:00
-    "LRRR - Ice Spy": 2700, # 45:00
-    "LRRR - It's A Hold Up": 1500, # 25:00
-    "LRRR - Lake Of Fire": 1800, # 30:00
-    "LRRR - Lava Laughter": 1800, # 30:00
-    "LRRR - Oresome": 1200, # 20:00
-    "LRRR - Rock Hard": 1800, # 30:00
-    "LRRR - Rocky Horror": 6300, # 105:00
-    "LRRR - Rubble Trouble": 660, # 11:00
-    "LRRR - Run The Gauntlet": 600, # 10:00
-    "LRRR - Search And Rescue": 900, # 15:00
-    "LRRR - Split Down The Middle": 1200, # 20:00 
-    "LRRR - The Path To Power": 660, # 11:00
-    "LRRR - Water Lot Of Fun": 660, # 11:00
-    "LRRR - Water Works": 1500, # 25:00
+    "LRRR - A Breath Of Fresh Air": 1200, # 20:00
+    "LRRR - Air Raiders": 2700, # 45:00
+    "LRRR - Back To Basics": 5400, # 90:00
+    "LRRR - Breathless": 1380, # 23:00
+    "LRRR - Don't Panic": 660, # 11:00
+    "LRRR - Driller Night": 420, # 07:00
+    "LRRR - Erode Works": 2700, # 45:00
+    "LRRR - Explosive Action": 2700, # 45:00
+    "LRRR - Fire And Water": 1380, # 23:00
+    "LRRR - Frozen Frenzy": 2880, # 48:00
+    "LRRR - Hot Stuff": 5400, # 90:00
+    "LRRR - Ice Spy": 3960, # 66:00
+    "LRRR - It's A Hold Up": 2280, # 38:00
+    "LRRR - Lake Of Fire": 2700, # 45:00
+    "LRRR - Lava Laughter": 2700, # 45:00
+    "LRRR - Oresome": 1800, # 30:00
+    "LRRR - Rock Hard": 2700, # 45:00
+    "LRRR - Rocky Horror": 9600, # 160:00
+    "LRRR - Rubble Trouble": 1080, # 18:00
+    "LRRR - Run The Gauntlet": 900, # 15:00
+    "LRRR - Search And Rescue": 1380, # 23:00
+    "LRRR - Split Down The Middle": 1800, # 30:00 
+    "LRRR - The Path To Power": 1080, # 18:00
+    "LRRR - Water Lot Of Fun": 1080, # 18:00
+    "LRRR - Water Works": 2280, # 38:00
 }
 
 TARGET_TOTAL_CLEAR_TIME_LRRR_MEDIUM = 0
@@ -457,31 +457,31 @@ for level in TARGET_CLEAR_TIME_LRRR_HARD:
     TARGET_TOTAL_CLEAR_TIME_LRRR_HARD += TARGET_CLEAR_TIME_LRRR_HARD[level]
 
 TARGET_CLEAR_TIME_LRRR_ROCK_HARD = {
-    "LRRR - A Breath Of Fresh Air": 840, # 14:00
-    "LRRR - Air Raiders": 1800, # 30:00
-    "LRRR - Back To Basics": 3000, # 50:00
-    "LRRR - Breathless": 900, # 15:00
-    "LRRR - Don't Panic": 420, # 07:00
-    "LRRR - Driller Night": 300, # 05:00
-    "LRRR - Erode Works": 1680, # 28:00
-    "LRRR - Explosive Action": 1680, # 28:00
-    "LRRR - Fire And Water": 840, # 14:00
-    "LRRR - Frozen Frenzy": 2100, # 35:00
-    "LRRR - Hot Stuff": 3600, # 60:00
-    "LRRR - Ice Spy": 2700, # 45:00
-    "LRRR - It's A Hold Up": 1500, # 25:00
-    "LRRR - Lake Of Fire": 1800, # 30:00
-    "LRRR - Lava Laughter": 1800, # 30:00
-    "LRRR - Oresome": 1200, # 20:00
-    "LRRR - Rock Hard": 1800, # 30:00
-    "LRRR - Rocky Horror": 6300, # 105:00
-    "LRRR - Rubble Trouble": 660, # 11:00
-    "LRRR - Run The Gauntlet": 600, # 10:00
-    "LRRR - Search And Rescue": 900, # 15:00
-    "LRRR - Split Down The Middle": 1200, # 20:00 
-    "LRRR - The Path To Power": 660, # 11:00
-    "LRRR - Water Lot Of Fun": 660, # 11:00
-    "LRRR - Water Works": 1500, # 25:00
+    "LRRR - A Breath Of Fresh Air": 660, # 11:00
+    "LRRR - Air Raiders": 1440, # 24:00
+    "LRRR - Back To Basics": 1800, # 30:00
+    "LRRR - Breathless": 720, # 12:00
+    "LRRR - Don't Panic": 300, # 05:00
+    "LRRR - Driller Night": 240, # 04:00
+    "LRRR - Erode Works": 1320, # 22:00
+    "LRRR - Explosive Action": 1380, # 23:00
+    "LRRR - Fire And Water": 600, # 10:00
+    "LRRR - Frozen Frenzy": 1560, # 26:00
+    "LRRR - Hot Stuff": 2880, # 48:00
+    "LRRR - Ice Spy": 2280, # 38:00
+    "LRRR - It's A Hold Up": 1200, # 20:00
+    "LRRR - Lake Of Fire": 1320, # 22:00
+    "LRRR - Lava Laughter": 1560, # 26:00
+    "LRRR - Oresome": 960, # 16:00
+    "LRRR - Rock Hard": 1500, # 25:00
+    "LRRR - Rocky Horror": 4500, # 75:00
+    "LRRR - Rubble Trouble": 480, # 08:00
+    "LRRR - Run The Gauntlet": 420, # 07:00
+    "LRRR - Search And Rescue": 600, # 10:00
+    "LRRR - Split Down The Middle": 780, # 13:00 
+    "LRRR - The Path To Power": 480, # 08:00
+    "LRRR - Water Lot Of Fun": 480, # 08:00
+    "LRRR - Water Works": 1140, # 19:00
 }
 
 TARGET_TOTAL_CLEAR_TIME_LRRR_ROCK_HARD = 0
