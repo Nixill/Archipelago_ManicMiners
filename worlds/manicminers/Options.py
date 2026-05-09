@@ -120,12 +120,12 @@ class CampaignSelectionLRRC(DefaultOnToggle):
     
     display_name = "Include 'Classic' Campaign Levels"
 
-class CampaignSelectionBAZ(DefaultOnToggle):
-    """
-    Whether your game will include the Baz's Mod campaign levels.
-    """
+# class CampaignSelectionBAZ(DefaultOnToggle):
+    # """
+    # Whether your game will include the Baz's Mod campaign levels.
+    # """
     
-    display_name = "Include 'Baz's Mod' Campaign Levels"
+    # display_name = "Include 'Baz's Mod' Campaign Levels"
 
 @dataclass
 class ManicMinersOptions(PerGameCommonOptions):
@@ -141,12 +141,13 @@ class ManicMinersOptions(PerGameCommonOptions):
     campaign_selection_lrr: CampaignSelectionLRR
     campaign_selection_lrrr: CampaignSelectionLRRR
     campaign_selection_lrrc: CampaignSelectionLRRC
-    campaign_selection_baz: CampaignSelectionBAZ
+    # campaign_selection_baz: CampaignSelectionBAZ
 
 option_groups = [
     OptionGroup(
         "Campaign Selection",
-        [CampaignSelectionLRR,CampaignSelectionLRRR,CampaignSelectionLRRC,CampaignSelectionBAZ]
+        # [CampaignSelectionLRR,CampaignSelectionLRRR,CampaignSelectionLRRC,CampaignSelectionBAZ]
+        [CampaignSelectionLRR,CampaignSelectionLRRR,CampaignSelectionLRRC]
     ),
     OptionGroup(
         "Levels",

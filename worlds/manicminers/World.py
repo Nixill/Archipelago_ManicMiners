@@ -58,8 +58,8 @@ class ManicMinersWorld(World):
         if self.options.campaign_selection_lrrc:
             number_levels += 25
 
-        if self.options.campaign_selection_baz:
-            number_levels += 33          
+        # if self.options.campaign_selection_baz:
+            # number_levels += 33          
         
         if number_levels == 0:
             self.options.campaign_selection_lrr.value = 1
@@ -116,7 +116,8 @@ class ManicMinersWorld(World):
     
     def fill_slot_data(self) -> Mapping[str, Any]:
         return self.options.as_dict(
-        "victory_condition", "target_level_count", "target_times_are_checks", "target_time_difficulty", "buildings_are_items", "items_are_items", "vehicles_are_items", "campaign_selection_lrr", "campaign_selection_lrrr", "campaign_selection_lrrc", "campaign_selection_baz"
+        # "victory_condition", "target_level_count", "target_times_are_checks", "target_time_difficulty", "buildings_are_items", "items_are_items", "vehicles_are_items", "campaign_selection_lrr", "campaign_selection_lrrr", "campaign_selection_lrrc", "campaign_selection_baz"
+        "victory_condition", "target_level_count", "target_times_are_checks", "target_time_difficulty", "buildings_are_items", "items_are_items", "vehicles_are_items", "campaign_selection_lrr", "campaign_selection_lrrr", "campaign_selection_lrrc"
         )
 
 def launch_client(*args):
