@@ -23,13 +23,13 @@ class TargetLevelCount(Range):
     If Victory Condition is set to Total Levels Cleared: How many levels must be cleared to goal the game. 
     If Victory Condition is set to Individual Target Time: How many levels you need to beat the target time on to goal the game. 
     Otherwise this setting has no effect. 
-    If a target number highger than total levels is given, target will cap at 'all levels'. 
+    If a target number higher than the number of total levels is given, target will cap at 'all levels'. 
     """
     
     display_name = "Target Level Count"
     
     range_start = 1
-    range_end = 25
+    range_end = 108
     
     default = 25
 
@@ -42,7 +42,7 @@ class AvailableLevelsAtStart(Range):
     display_name = "Available Levels At Start"
     
     range_start = 1
-    range_end = 25
+    range_end = 108
     
     default = 2
 
@@ -56,6 +56,7 @@ class TargetTimesAreChecks(DefaultOnToggle):
 class TargetTimeDifficulty(Choice):
     """
     How difficult the target times are per level. 
+    Caution is strongly advised when using Rock Hard targets in a multiplayer sync - they are very difficult. 
     """
     
     display_name = "Target Time Difficulty"
@@ -90,7 +91,7 @@ class VehiclesAreItems(DefaultOnToggle):
 
 class BreathingAlwaysInLogic(Toggle):
     """
-    Whether the ability to build a Support Station is logically required for levels with limited air.
+    Whether the ability to build a Support Station is logically required for all levels with limited air.
     When enabled, some levels that can be comfortably beaten before the air runs out will remain out of logic. 
     Has no effect if Buildings Are Items is disabled.
     """
@@ -99,13 +100,32 @@ class BreathingAlwaysInLogic(Toggle):
 
 class CampaignSelectionLRR(DefaultOnToggle):
     """
-    Whether your game will include the main campaign levels.
+    Whether your game will include the Standard campaign levels.
     If no campaigns are selected, this one will automatically enable.
     """
     
     display_name = "Include 'Standard' Campaign Levels"
     
-#TODO: Rest of initially planned options
+class CampaignSelectionLRRR(DefaultOnToggle):
+    """
+    Whether your game will include the Remastered campaign levels.
+    """
+    
+    display_name = "Include 'Remastered' Campaign Levels"
+
+class CampaignSelectionLRRC(DefaultOnToggle):
+    """
+    Whether your game will include the Classic campaign levels.
+    """
+    
+    display_name = "Include 'Classic' Campaign Levels"
+
+# class CampaignSelectionBAZ(DefaultOnToggle):
+    # """
+    # Whether your game will include the Baz's Mod campaign levels.
+    # """
+    
+    # display_name = "Include 'Baz's Mod' Campaign Levels"
 
 @dataclass
 class ManicMinersOptions(PerGameCommonOptions):
@@ -119,11 +139,15 @@ class ManicMinersOptions(PerGameCommonOptions):
     vehicles_are_items: VehiclesAreItems
     breathing_always_in_logic: BreathingAlwaysInLogic
     campaign_selection_lrr: CampaignSelectionLRR
+    campaign_selection_lrrr: CampaignSelectionLRRR
+    campaign_selection_lrrc: CampaignSelectionLRRC
+    # campaign_selection_baz: CampaignSelectionBAZ
 
 option_groups = [
     OptionGroup(
         "Campaign Selection",
-        [CampaignSelectionLRR]
+        # [CampaignSelectionLRR,CampaignSelectionLRRR,CampaignSelectionLRRC,CampaignSelectionBAZ]
+        [CampaignSelectionLRR,CampaignSelectionLRRR,CampaignSelectionLRRC]
     ),
     OptionGroup(
         "Levels",

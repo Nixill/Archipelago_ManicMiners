@@ -42,6 +42,92 @@ ITEM_NAME_TO_ID = {
     "Level Access: LRR - Water Lot Of Fun": 24,
     "Level Access: LRR - Water Works": 25,
     
+    "Level Access: LRRR - A Breath Of Fresh Air": 1001,
+    "Level Access: LRRR - Air Raiders": 1002,
+    "Level Access: LRRR - Back To Basics": 1003,
+    "Level Access: LRRR - Breathless": 1004,
+    "Level Access: LRRR - Don't Panic": 1005,
+    "Level Access: LRRR - Driller Night": 1006,
+    "Level Access: LRRR - Erode Works": 1007,
+    "Level Access: LRRR - Explosive Action": 1008,
+    "Level Access: LRRR - Fire And Water": 1009,
+    "Level Access: LRRR - Frozen Frenzy": 1010,
+    "Level Access: LRRR - Hot Stuff": 1011,
+    "Level Access: LRRR - Ice Spy": 1012,
+    "Level Access: LRRR - It's A Hold Up": 1013,
+    "Level Access: LRRR - Lake Of Fire": 1014,
+    "Level Access: LRRR - Lava Laughter": 1015,
+    "Level Access: LRRR - Oresome": 1016,
+    "Level Access: LRRR - Rock Hard": 1017,
+    "Level Access: LRRR - Rocky Horror": 1018,
+    "Level Access: LRRR - Rubble Trouble": 1019,
+    "Level Access: LRRR - Run The Gauntlet": 1020,
+    "Level Access: LRRR - Search And Rescue": 1021,
+    "Level Access: LRRR - Split Down The Middle": 1022,
+    "Level Access: LRRR - The Path To Power": 1023,
+    "Level Access: LRRR - Water Lot Of Fun": 1024,
+    "Level Access: LRRR - Water Works": 1025,
+    
+    "Level Access: LRRC - A Breath Of Fresh Air": 2001,
+    "Level Access: LRRC - Air Raiders": 2002,
+    "Level Access: LRRC - Back To Basics": 2003,
+    "Level Access: LRRC - Breathless": 2004,
+    "Level Access: LRRC - Don't Panic": 2005,
+    "Level Access: LRRC - Driller Night": 2006,
+    "Level Access: LRRC - Erode Works": 2007,
+    "Level Access: LRRC - Explosive Action": 2008,
+    "Level Access: LRRC - Fire And Water": 2009,
+    "Level Access: LRRC - Frozen Frenzy": 2010,
+    "Level Access: LRRC - Hot Stuff": 2011,
+    "Level Access: LRRC - Ice Spy": 2012,
+    "Level Access: LRRC - It's A Hold Up": 2013,
+    "Level Access: LRRC - Lake Of Fire": 2014,
+    "Level Access: LRRC - Lava Laughter": 2015,
+    "Level Access: LRRC - Oresome": 2016,
+    "Level Access: LRRC - Rock Hard": 2017,
+    "Level Access: LRRC - Rocky Horror": 2018,
+    "Level Access: LRRC - Rubble Trouble": 2019,
+    "Level Access: LRRC - Run The Gauntlet": 2020,
+    "Level Access: LRRC - Search And Rescue": 2021,
+    "Level Access: LRRC - Split Down The Middle": 2022,
+    "Level Access: LRRC - The Path To Power": 2023,
+    "Level Access: LRRC - Water Lot Of Fun": 2024,
+    "Level Access: LRRC - Water Works": 2025,
+    
+    "Level Access: BAZ - A Breath Of Fresh Air": 3001,
+    "Level Access: BAZ - Air Raiders": 3002,
+    "Level Access: BAZ - Back To Basics": 3003,
+    "Level Access: BAZ - Breathless": 3004,
+    "Level Access: BAZ - Cold Comfort": 3005,
+    "Level Access: BAZ - Don't Panic": 3006,
+    "Level Access: BAZ - Down In The Dirt": 3007,
+    "Level Access: BAZ - Driller Night": 3008,
+    "Level Access: BAZ - Erode Works": 3009,
+    "Level Access: BAZ - Explosive Action": 3010,
+    "Level Access: BAZ - Fire And Water": 3011,
+    "Level Access: BAZ - Frozen Frenzy": 3012,
+    "Level Access: BAZ - Hot Stuff": 3013,
+    "Level Access: BAZ - Ice Spy": 3014,
+    "Level Access: BAZ - It's A Hold Up": 3015,
+    "Level Access: BAZ - Lake Of Fire": 3016,
+    "Level Access: BAZ - Lava Laughter": 3017,
+    "Level Access: BAZ - Mine Over Matter": 3018,
+    "Level Access: BAZ - Molten Meltdown": 3019,
+    "Level Access: BAZ - Oresome": 3020,
+    "Level Access: BAZ - Recruitment": 3021,
+    "Level Access: BAZ - Rock Hard": 3022,
+    "Level Access: BAZ - Rocky Horror": 3023,
+    "Level Access: BAZ - Rubble Trouble": 3024,
+    "Level Access: BAZ - Run The Gauntlet": 3025,
+    "Level Access: BAZ - Seamless": 3026,
+    "Level Access: BAZ - Search And Rescue": 3027,
+    "Level Access: BAZ - Slimey Simple": 3028,
+    "Level Access: BAZ - Split Down The Middle": 3029,
+    "Level Access: BAZ - The Hard Rock Life": 3030,
+    "Level Access: BAZ - The Path To Power": 3031,
+    "Level Access: BAZ - Water Lot Of Fun": 3032,
+    "Level Access: BAZ - Water Works": 3033,
+    
     "Building Unlock: Tool Store": 899,
     "Building Unlock: Teleport Pad": 898,
     "Building Unlock: Docks": 897,
@@ -103,6 +189,92 @@ DEFAULT_ITEM_CLASSIFICATIONS = {
     "Level Access: LRR - The Path To Power": ItemClassification.progression,
     "Level Access: LRR - Water Lot Of Fun": ItemClassification.progression,
     "Level Access: LRR - Water Works": ItemClassification.progression,
+    
+    "Level Access: LRRR - A Breath Of Fresh Air": ItemClassification.progression,
+    "Level Access: LRRR - Air Raiders": ItemClassification.progression,
+    "Level Access: LRRR - Back To Basics": ItemClassification.progression,
+    "Level Access: LRRR - Breathless": ItemClassification.progression,
+    "Level Access: LRRR - Don't Panic": ItemClassification.progression,
+    "Level Access: LRRR - Driller Night": ItemClassification.progression,
+    "Level Access: LRRR - Erode Works": ItemClassification.progression,
+    "Level Access: LRRR - Explosive Action": ItemClassification.progression,
+    "Level Access: LRRR - Fire And Water": ItemClassification.progression,
+    "Level Access: LRRR - Frozen Frenzy": ItemClassification.progression,
+    "Level Access: LRRR - Hot Stuff": ItemClassification.progression,
+    "Level Access: LRRR - Ice Spy": ItemClassification.progression,
+    "Level Access: LRRR - It's A Hold Up": ItemClassification.progression,
+    "Level Access: LRRR - Lake Of Fire": ItemClassification.progression,
+    "Level Access: LRRR - Lava Laughter": ItemClassification.progression,
+    "Level Access: LRRR - Oresome": ItemClassification.progression,
+    "Level Access: LRRR - Rock Hard": ItemClassification.progression,
+    "Level Access: LRRR - Rocky Horror": ItemClassification.progression,
+    "Level Access: LRRR - Rubble Trouble": ItemClassification.progression,
+    "Level Access: LRRR - Run The Gauntlet": ItemClassification.progression,
+    "Level Access: LRRR - Search And Rescue": ItemClassification.progression,
+    "Level Access: LRRR - Split Down The Middle": ItemClassification.progression,
+    "Level Access: LRRR - The Path To Power": ItemClassification.progression,
+    "Level Access: LRRR - Water Lot Of Fun": ItemClassification.progression,
+    "Level Access: LRRR - Water Works": ItemClassification.progression,
+    
+    "Level Access: LRRC - A Breath Of Fresh Air": ItemClassification.progression,
+    "Level Access: LRRC - Air Raiders": ItemClassification.progression,
+    "Level Access: LRRC - Back To Basics": ItemClassification.progression,
+    "Level Access: LRRC - Breathless": ItemClassification.progression,
+    "Level Access: LRRC - Don't Panic": ItemClassification.progression,
+    "Level Access: LRRC - Driller Night": ItemClassification.progression,
+    "Level Access: LRRC - Erode Works": ItemClassification.progression,
+    "Level Access: LRRC - Explosive Action": ItemClassification.progression,
+    "Level Access: LRRC - Fire And Water": ItemClassification.progression,
+    "Level Access: LRRC - Frozen Frenzy": ItemClassification.progression,
+    "Level Access: LRRC - Hot Stuff": ItemClassification.progression,
+    "Level Access: LRRC - Ice Spy": ItemClassification.progression,
+    "Level Access: LRRC - It's A Hold Up": ItemClassification.progression,
+    "Level Access: LRRC - Lake Of Fire": ItemClassification.progression,
+    "Level Access: LRRC - Lava Laughter": ItemClassification.progression,
+    "Level Access: LRRC - Oresome": ItemClassification.progression,
+    "Level Access: LRRC - Rock Hard": ItemClassification.progression,
+    "Level Access: LRRC - Rocky Horror": ItemClassification.progression,
+    "Level Access: LRRC - Rubble Trouble": ItemClassification.progression,
+    "Level Access: LRRC - Run The Gauntlet": ItemClassification.progression,
+    "Level Access: LRRC - Search And Rescue": ItemClassification.progression,
+    "Level Access: LRRC - Split Down The Middle": ItemClassification.progression,
+    "Level Access: LRRC - The Path To Power": ItemClassification.progression,
+    "Level Access: LRRC - Water Lot Of Fun": ItemClassification.progression,
+    "Level Access: LRRC - Water Works": ItemClassification.progression,
+    
+    "Level Access: BAZ - A Breath Of Fresh Air": ItemClassification.progression,
+    "Level Access: BAZ - Air Raiders": ItemClassification.progression,
+    "Level Access: BAZ - Back To Basics": ItemClassification.progression,
+    "Level Access: BAZ - Breathless": ItemClassification.progression,
+    "Level Access: BAZ - Cold Comfort": ItemClassification.progression,
+    "Level Access: BAZ - Don't Panic": ItemClassification.progression,
+    "Level Access: BAZ - Down In The Dirt": ItemClassification.progression,
+    "Level Access: BAZ - Driller Night": ItemClassification.progression,
+    "Level Access: BAZ - Erode Works": ItemClassification.progression,
+    "Level Access: BAZ - Explosive Action": ItemClassification.progression,
+    "Level Access: BAZ - Fire And Water": ItemClassification.progression,
+    "Level Access: BAZ - Frozen Frenzy": ItemClassification.progression,
+    "Level Access: BAZ - Hot Stuff": ItemClassification.progression,
+    "Level Access: BAZ - Ice Spy": ItemClassification.progression,
+    "Level Access: BAZ - It's A Hold Up": ItemClassification.progression,
+    "Level Access: BAZ - Lake Of Fire": ItemClassification.progression,
+    "Level Access: BAZ - Lava Laughter": ItemClassification.progression,
+    "Level Access: BAZ - Mine Over Matter": ItemClassification.progression,
+    "Level Access: BAZ - Molten Meltdown": ItemClassification.progression,
+    "Level Access: BAZ - Oresome": ItemClassification.progression,
+    "Level Access: BAZ - Recruitment": ItemClassification.progression,
+    "Level Access: BAZ - Rock Hard": ItemClassification.progression,
+    "Level Access: BAZ - Rocky Horror": ItemClassification.progression,
+    "Level Access: BAZ - Rubble Trouble": ItemClassification.progression,
+    "Level Access: BAZ - Run The Gauntlet": ItemClassification.progression,
+    "Level Access: BAZ - Seamless": ItemClassification.progression,
+    "Level Access: BAZ - Search And Rescue": ItemClassification.progression,
+    "Level Access: BAZ - Slimey Simple": ItemClassification.progression,
+    "Level Access: BAZ - Split Down The Middle": ItemClassification.progression,
+    "Level Access: BAZ - The Hard Rock Life": ItemClassification.progression,
+    "Level Access: BAZ - The Path To Power": ItemClassification.progression,
+    "Level Access: BAZ - Water Lot Of Fun": ItemClassification.progression,
+    "Level Access: BAZ - Water Works": ItemClassification.progression,
     
     "Building Unlock: Tool Store": ItemClassification.useful,
     "Building Unlock: Teleport Pad": ItemClassification.progression,
@@ -171,6 +343,113 @@ LEVEL_ACCESS_LRR_NEEDSUNLOCK_LIST = [
 
 LEVEL_ACCESS_LRR_LIST = LEVEL_ACCESS_LRR_NOUNLOCK_LIST + LEVEL_ACCESS_LRR_NEEDSUNLOCK_LIST
 
+LEVEL_ACCESS_LRRR_NOUNLOCK_LIST = [
+    "Level Access: LRRR - Don't Panic",
+    "Level Access: LRRR - Driller Night",
+    "Level Access: LRRR - Run The Gauntlet"
+]
+
+LEVEL_ACCESS_LRRR_NEEDSUNLOCK_LIST = [
+    "Level Access: LRRR - A Breath Of Fresh Air",
+    "Level Access: LRRR - Air Raiders",
+    "Level Access: LRRR - Back To Basics",
+    "Level Access: LRRR - Breathless",
+    "Level Access: LRRR - Erode Works",
+    "Level Access: LRRR - Explosive Action",
+    "Level Access: LRRR - Fire And Water",
+    "Level Access: LRRR - Frozen Frenzy",
+    "Level Access: LRRR - Hot Stuff",
+    "Level Access: LRRR - Ice Spy",
+    "Level Access: LRRR - It's A Hold Up",
+    "Level Access: LRRR - Lake Of Fire",
+    "Level Access: LRRR - Lava Laughter",
+    "Level Access: LRRR - Oresome",
+    "Level Access: LRRR - Rock Hard",
+    "Level Access: LRRR - Rocky Horror",
+    "Level Access: LRRR - Rubble Trouble",
+    "Level Access: LRRR - Search And Rescue",
+    "Level Access: LRRR - Split Down The Middle",
+    "Level Access: LRRR - The Path To Power",
+    "Level Access: LRRR - Water Lot Of Fun",
+    "Level Access: LRRR - Water Works"
+]
+
+LEVEL_ACCESS_LRRR_LIST = LEVEL_ACCESS_LRRR_NOUNLOCK_LIST + LEVEL_ACCESS_LRRR_NEEDSUNLOCK_LIST
+
+LEVEL_ACCESS_LRRC_NOUNLOCK_LIST = [
+    "Level Access: LRRC - Air Raiders",
+    "Level Access: LRRC - Don't Panic",
+    "Level Access: LRRC - Driller Night",
+    "Level Access: LRRC - It's A Hold Up",
+    "Level Access: LRRC - Lake Of Fire",
+    "Level Access: LRRC - Oresome",
+    "Level Access: LRRC - Rubble Trouble",
+    "Level Access: LRRC - Run The Gauntlet",
+    "Level Access: LRRC - Split Down The Middle"
+]
+
+LEVEL_ACCESS_LRRC_NEEDSUNLOCK_LIST = [
+    "Level Access: LRRC - A Breath Of Fresh Air",
+    "Level Access: LRRC - Back To Basics",
+    "Level Access: LRRC - Breathless",
+    "Level Access: LRRC - Erode Works",
+    "Level Access: LRRC - Explosive Action",
+    "Level Access: LRRC - Fire And Water",
+    "Level Access: LRRC - Frozen Frenzy",
+    "Level Access: LRRC - Hot Stuff",
+    "Level Access: LRRC - Ice Spy",
+    "Level Access: LRRC - Lava Laughter",
+    "Level Access: LRRC - Rock Hard",
+    "Level Access: LRRC - Rocky Horror",
+    "Level Access: LRRC - Search And Rescue",
+    "Level Access: LRRC - The Path To Power",
+    "Level Access: LRRC - Water Lot Of Fun",
+    "Level Access: LRRC - Water Works"
+]
+
+LEVEL_ACCESS_LRRC_LIST = LEVEL_ACCESS_LRRC_NOUNLOCK_LIST + LEVEL_ACCESS_LRRC_NEEDSUNLOCK_LIST
+
+LEVEL_ACCESS_BAZ_NOUNLOCK_LIST = [
+    "Level Access: BAZ - Mine Over Matter",
+    "Level Access: BAZ - Driller Night",
+    "Level Access: BAZ - Split Down The Middle"
+]
+
+LEVEL_ACCESS_BAZ_NEEDSUNLOCK_LIST = [
+    "Level Access: BAZ - A Breath Of Fresh Air",
+    "Level Access: BAZ - Air Raiders",
+    "Level Access: BAZ - Back To Basics",
+    "Level Access: BAZ - Breathless",
+    "Level Access: BAZ - Cold Comfort",
+    "Level Access: BAZ - Don't Panic",
+    "Level Access: BAZ - Down In The Dirt",
+    "Level Access: BAZ - Erode Works",
+    "Level Access: BAZ - Explosive Action",
+    "Level Access: BAZ - Fire And Water",
+    "Level Access: BAZ - Frozen Frenzy",
+    "Level Access: BAZ - Hot Stuff",
+    "Level Access: BAZ - Ice Spy",
+    "Level Access: BAZ - It's A Hold Up",
+    "Level Access: BAZ - Lake Of Fire",
+    "Level Access: BAZ - Lava Laughter",
+    "Level Access: BAZ - Molten Meltdown",
+    "Level Access: BAZ - Oresome",
+    "Level Access: BAZ - Recruitment",
+    "Level Access: BAZ - Rock Hard",
+    "Level Access: BAZ - Rocky Horror",
+    "Level Access: BAZ - Rubble Trouble",
+    "Level Access: BAZ - Run The Gauntlet",
+    "Level Access: BAZ - Seamless",
+    "Level Access: BAZ - Search And Rescue",
+    "Level Access: BAZ - Slimey Simple",
+    "Level Access: BAZ - The Hard Rock Life",
+    "Level Access: BAZ - The Path To Power",
+    "Level Access: BAZ - Water Lot Of Fun",
+    "Level Access: BAZ - Water Works"
+]
+
+LEVEL_ACCESS_BAZ_LIST = LEVEL_ACCESS_BAZ_NOUNLOCK_LIST + LEVEL_ACCESS_BAZ_NEEDSUNLOCK_LIST
+
 BUILDING_UNLOCK_LIST = [
     "Building Unlock: Tool Store",
     "Building Unlock: Teleport Pad",
@@ -218,6 +497,23 @@ def get_random_filler_item_name(world: ManicMinersWorld) -> str:
     
 def create_item_with_correct_classification(world: ManicMinersWorld, name: str) -> ManicMinersItem:
     classification = DEFAULT_ITEM_CLASSIFICATIONS[name]
+    if world.options.campaign_selection_lrrr:
+        if name == "Item Unlock: Electric Fence":
+            classification = ItemClassification.progression
+        if name == "Building Unlock: Tool Store":
+            classification = ItemClassification.progression
+        if name == "Building Unlock: Geological Center":
+            classification = ItemClassification.progression
+        if name == "Building Unlock: Ore Refinery":
+            classification = ItemClassification.progression
+        if name == "Building Unlock: Upgrade Station":
+            classification = ItemClassification.progression
+        if name == "Building Unlock: Canteen":
+            classification = ItemClassification.progression
+        if name == "Vehicle Unlock: Hover Scout":
+            classification = ItemClassification.progression
+        if name == "Vehicle Unlock: Small Transport Truck":
+            classification = ItemClassification.progression
     return ManicMinersItem(name, classification, ITEM_NAME_TO_ID[name], world.player)
     
 def create_all_items(world: ManicMinersWorld) -> None:
@@ -244,6 +540,51 @@ def create_all_items(world: ManicMinersWorld) -> None:
         
         itempool_sphere1_access += itempool_lrr_sphere1_access
         itempool_sphere2plus_access += itempool_lrr_sphere2plus_access
+ 
+    if world.options.campaign_selection_lrrr:
+        itempool_lrrr_access = []
+        itempool_lrrr_sphere1_access = []
+        itempool_lrrr_sphere2plus_access = []
+        for item in LEVEL_ACCESS_LRRR_NOUNLOCK_LIST:
+            itempool_lrrr_sphere1_access.append(world.create_item(item))
+        for item in LEVEL_ACCESS_LRRR_NEEDSUNLOCK_LIST:
+            itempool_lrrr_sphere2plus_access.append(world.create_item(item))
+        if world.options.buildings_are_items == 0 and world.options.items_are_items == 0 and world.options.vehicles_are_items == 0:
+            itempool_lrrr_sphere1_access += itempool_lrrr_sphere2plus_access
+            itempool_lrrr_sphere2plus_access.clear()
+        
+        itempool_sphere1_access += itempool_lrrr_sphere1_access
+        itempool_sphere2plus_access += itempool_lrrr_sphere2plus_access
+ 
+    if world.options.campaign_selection_lrrc:
+        itempool_lrrc_access = []
+        itempool_lrrc_sphere1_access = []
+        itempool_lrrc_sphere2plus_access = []
+        for item in LEVEL_ACCESS_LRRC_NOUNLOCK_LIST:
+            itempool_lrrc_sphere1_access.append(world.create_item(item))
+        for item in LEVEL_ACCESS_LRRC_NEEDSUNLOCK_LIST:
+            itempool_lrrc_sphere2plus_access.append(world.create_item(item))
+        if world.options.buildings_are_items == 0 and world.options.items_are_items == 0 and world.options.vehicles_are_items == 0:
+            itempool_lrrc_sphere1_access += itempool_lrrc_sphere2plus_access
+            itempool_lrrc_sphere2plus_access.clear()
+        
+        itempool_sphere1_access += itempool_lrrc_sphere1_access
+        itempool_sphere2plus_access += itempool_lrrc_sphere2plus_access
+ 
+    # if world.options.campaign_selection_baz:
+        # itempool_baz_access = []
+        # itempool_baz_sphere1_access = []
+        # itempool_baz_sphere2plus_access = []
+        # for item in LEVEL_ACCESS_BAZ_NOUNLOCK_LIST:
+            # itempool_baz_sphere1_access.append(world.create_item(item))
+        # for item in LEVEL_ACCESS_BAZ_NEEDSUNLOCK_LIST:
+            # itempool_baz_sphere2plus_access.append(world.create_item(item))
+        # if world.options.buildings_are_items == 0 and world.options.items_are_items == 0 and world.options.vehicles_are_items == 0:
+            # itempool_baz_sphere1_access += itempool_baz_sphere2plus_access
+            # itempool_baz_sphere2plus_access.clear()
+        
+        # itempool_sphere1_access += itempool_baz_sphere1_access
+        # itempool_sphere2plus_access += itempool_baz_sphere2plus_access
     
     initial_access_item_index = world.random.randint(0,len(itempool_sphere1_access)-1)
     initial_access_item_list.append(itempool_sphere1_access[initial_access_item_index])
@@ -268,12 +609,7 @@ def create_all_items(world: ManicMinersWorld) -> None:
 
     itempool_vehicles = []
     for item in VEHICLE_UNLOCK_LIST:
-        itempool_vehicles.append(world.create_item(item))        
-    
-    number_of_items = len(itempool)
-    number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player))
-    needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
-    itempool += [world.create_filler() for _ in range(needed_number_of_filler_items)]
+        itempool_vehicles.append(world.create_item(item))
     
     for item in initial_access_item_list:
         world.push_precollected(item)
@@ -295,6 +631,11 @@ def create_all_items(world: ManicMinersWorld) -> None:
     else:
         for item in itempool_vehicles:
             world.push_precollected(item)
+    
+    number_of_items = len(itempool)
+    number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player))
+    needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
+    itempool += [world.create_filler() for _ in range(needed_number_of_filler_items)]
     
     world.multiworld.itempool += itempool
 
@@ -377,6 +718,255 @@ def copy_level_into_archipelago(root_dir, arch_level_dir, item_id, all_items):
         case 25:
             source = "\\LRR\\waterworks.dat"
             target = "\\LRR - Water Works.dat"
+        case 1001:
+            source = "\\LRRR\\abreathoffreshair.dat"
+            target = "\\LRRR - A Breath Of Fresh Air.dat"
+        case 1002:
+            source = "\\LRRR\\airraiders.dat"
+            target = "\\LRRR - Air Raiders.dat"
+        case 1003:
+            source = "\\LRRR\\backtobasics.dat"
+            target = "\\LRRR - Back To Basics.dat"
+        case 1004:
+            source = "\\LRRR\\breathless.dat"
+            target = "\\LRRR - Breathless.dat"
+        case 1005:
+            source = "\\LRRR\\dontpanic.dat"
+            target = "\\LRRR - Don't Panic.dat"
+        case 1006:
+            source = "\\LRRR\\drillernight.dat"
+            target = "\\LRRR - Driller Night.dat"
+        case 1007:
+            source = "\\LRRR\\erodeworks.dat"
+            target = "\\LRRR - Erode Works.dat"
+        case 1008:
+            source = "\\LRRR\\explosiveaction.dat"
+            target = "\\LRRR - Explosive Action.dat"
+        case 1009:
+            source = "\\LRRR\\fireandwater.dat"
+            target = "\\LRRR - Fire And Water.dat"
+        case 1010:
+            source = "\\LRRR\\frozenfrenzy.dat"
+            target = "\\LRRR - Frozen Frenzy.dat"
+        case 1011:
+            source = "\\LRRR\\hotstuff.dat"
+            target = "\\LRRR - Hot Stuff.dat"
+        case 1012:
+            source = "\\LRRR\\icespy.dat"
+            target = "\\LRRR - Ice Spy.dat"
+        case 1013:
+            source = "\\LRRR\\itsaholdup.dat"
+            target = "\\LRRR - It's A Hold Up.dat"
+        case 1014:
+            source = "\\LRRR\\lakeoffire.dat"
+            target = "\\LRRR - Lake Of Fire.dat"
+        case 1015:
+            source = "\\LRRR\\lavalaughter.dat"
+            target = "\\LRRR - Lava Laughter.dat"
+        case 1016:
+            source = "\\LRRR\\oresome.dat"
+            target = "\\LRRR - Oresome.dat"
+        case 1017:
+            source = "\\LRRR\\rockhard.dat"
+            target = "\\LRRR - Rock Hard.dat"
+        case 1018:
+            source = "\\LRRR\\rockyhorror.dat"
+            target = "\\LRRR - Rocky Horror.dat"
+        case 1019:
+            source = "\\LRRR\\rubbletrouble.dat"
+            target = "\\LRRR - Rubble Trouble.dat"
+        case 1020:
+            source = "\\LRRR\\runthegauntlet.dat"
+            target = "\\LRRR - Run The Gauntlet.dat"
+        case 1021:
+            source = "\\LRRR\\searchandrescue.dat"
+            target = "\\LRRR - Search And Rescue.dat"
+        case 1022:
+            source = "\\LRRR\\splitdownthemiddle.dat"
+            target = "\\LRRR - Split Down The Middle.dat"
+        case 1023:
+            source = "\\LRRR\\thepathtopower.dat"
+            target = "\\LRRR - The Path To Power.dat"
+        case 1024:
+            source = "\\LRRR\\waterlotoffun.dat"
+            target = "\\LRRR - Water Lot Of Fun.dat"
+        case 1025:
+            source = "\\LRRR\\waterworks.dat"
+            target = "\\LRRR - Water Works.dat"
+        case 2001:
+            source = "\\LRRC\\abreathoffreshair.dat"
+            target = "\\LRRC - A Breath Of Fresh Air.dat"
+        case 2002:
+            source = "\\LRRC\\airraiders.dat"
+            target = "\\LRRC - Air Raiders.dat"
+        case 2003:
+            source = "\\LRRC\\backtobasics.dat"
+            target = "\\LRRC - Back To Basics.dat"
+        case 2004:
+            source = "\\LRRC\\breathless.dat"
+            target = "\\LRRC - Breathless.dat"
+        case 2005:
+            source = "\\LRRC\\dontpanic.dat"
+            target = "\\LRRC - Don't Panic.dat"
+        case 2006:
+            source = "\\LRRC\\drillernight.dat"
+            target = "\\LRRC - Driller Night.dat"
+        case 2007:
+            source = "\\LRRC\\erodeworks.dat"
+            target = "\\LRRC - Erode Works.dat"
+        case 2008:
+            source = "\\LRRC\\explosiveaction.dat"
+            target = "\\LRRC - Explosive Action.dat"
+        case 2009:
+            source = "\\LRRC\\fireandwater.dat"
+            target = "\\LRRC - Fire And Water.dat"
+        case 2010:
+            source = "\\LRRC\\frozenfrenzy.dat"
+            target = "\\LRRC - Frozen Frenzy.dat"
+        case 2011:
+            source = "\\LRRC\\hotstuff.dat"
+            target = "\\LRRC - Hot Stuff.dat"
+        case 2012:
+            source = "\\LRRC\\icespy.dat"
+            target = "\\LRRC - Ice Spy.dat"
+        case 2013:
+            source = "\\LRRC\\itsaholdup.dat"
+            target = "\\LRRC - It's A Hold Up.dat"
+        case 2014:
+            source = "\\LRRC\\lakeoffire.dat"
+            target = "\\LRRC - Lake Of Fire.dat"
+        case 2015:
+            source = "\\LRRC\\lavalaughter.dat"
+            target = "\\LRRC - Lava Laughter.dat"
+        case 2016:
+            source = "\\LRRC\\oresome.dat"
+            target = "\\LRRC - Oresome.dat"
+        case 2017:
+            source = "\\LRRC\\rockhard.dat"
+            target = "\\LRRC - Rock Hard.dat"
+        case 2018:
+            source = "\\LRRC\\rockyhorror.dat"
+            target = "\\LRRC - Rocky Horror.dat"
+        case 2019:
+            source = "\\LRRC\\rubbletrouble.dat"
+            target = "\\LRRC - Rubble Trouble.dat"
+        case 2020:
+            source = "\\LRRC\\runthegauntlet.dat"
+            target = "\\LRRC - Run The Gauntlet.dat"
+        case 2021:
+            source = "\\LRRC\\searchandrescue.dat"
+            target = "\\LRRC - Search And Rescue.dat"
+        case 2022:
+            source = "\\LRRC\\splitdownthemiddle.dat"
+            target = "\\LRRC - Split Down The Middle.dat"
+        case 2023:
+            source = "\\LRRC\\thepathtopower.dat"
+            target = "\\LRRC - The Path To Power.dat"
+        case 2024:
+            source = "\\LRRC\\waterlotoffun.dat"
+            target = "\\LRRC - Water Lot Of Fun.dat"
+        case 2025:
+            source = "\\LRRC\\waterworks.dat"
+            target = "\\LRRC - Water Works.dat"
+        case 3001:
+            source = "\\BAZ\\abreathoffreshair.dat"
+            target = "\\BAZ - A Breath Of Fresh Air.dat"
+        case 3002:
+            source = "\\BAZ\\airraiders.dat"
+            target = "\\BAZ - Air Raiders.dat"
+        case 3003:
+            source = "\\BAZ\\backtobasics.dat"
+            target = "\\BAZ - Back To Basics.dat"
+        case 3004:
+            source = "\\BAZ\\breathless.dat"
+            target = "\\BAZ - Breathless.dat"
+        case 3005:
+            source = "\\BAZ\\coldcomfort.dat"
+            target = "\\BAZ - Cold Comfort.dat"
+        case 3006:
+            source = "\\BAZ\\dontpanic.dat"
+            target = "\\BAZ - Don't Panic.dat"
+        case 3007:
+            source = "\\BAZ\\downinthedirt.dat"
+            target = "\\BAZ - Down In The Dirt.dat"
+        case 3008:
+            source = "\\BAZ\\drillernight.dat"
+            target = "\\BAZ - Driller Night.dat"
+        case 3009:
+            source = "\\BAZ\\erodeworks.dat"
+            target = "\\BAZ - Erode Works.dat"
+        case 3010:
+            source = "\\BAZ\\explosiveaction.dat"
+            target = "\\BAZ - Explosive Action.dat"
+        case 3011:
+            source = "\\BAZ\\fireandwater.dat"
+            target = "\\BAZ - Fire And Water.dat"
+        case 3012:
+            source = "\\BAZ\\frozenfrenzy.dat"
+            target = "\\BAZ - Frozen Frenzy.dat"
+        case 3013:
+            source = "\\BAZ\\hotstuff.dat"
+            target = "\\BAZ - Hot Stuff.dat"
+        case 3014:
+            source = "\\BAZ\\icespy.dat"
+            target = "\\BAZ - Ice Spy.dat"
+        case 3015:
+            source = "\\BAZ\\itsaholdup.dat"
+            target = "\\BAZ - It's A Hold Up.dat"
+        case 3016:
+            source = "\\BAZ\\lakeoffire.dat"
+            target = "\\BAZ - Lake Of Fire.dat"
+        case 3017:
+            source = "\\BAZ\\lavalaughter.dat"
+            target = "\\BAZ - Lava Laughter.dat"
+        case 3018:
+            source = "\\BAZ\\mineovermatter.dat"
+            target = "\\BAZ - Mine Over Matter.dat"
+        case 3019:
+            source = "\\BAZ\\moltenmeltdown.dat"
+            target = "\\BAZ - Molten Meltdown.dat"
+        case 3020:
+            source = "\\BAZ\\oresome.dat"
+            target = "\\BAZ - Oresome.dat"
+        case 3021:
+            source = "\\BAZ\\recruitment.dat"
+            target = "\\BAZ - Recruitment.dat"
+        case 3022:
+            source = "\\BAZ\\rockhard.dat"
+            target = "\\BAZ - Rock Hard.dat"
+        case 3023:
+            source = "\\BAZ\\rockyhorror.dat"
+            target = "\\BAZ - Rocky Horror.dat"
+        case 3024:
+            source = "\\BAZ\\rubbletrouble.dat"
+            target = "\\BAZ - Rubble Trouble.dat"
+        case 3025:
+            source = "\\BAZ\\runthegauntlet.dat"
+            target = "\\BAZ - Run The Gauntlet.dat"
+        case 3026:
+            source = "\\BAZ\\seamless.dat"
+            target = "\\BAZ - Seamless.dat"
+        case 3027:
+            source = "\\BAZ\\searchandrescue.dat"
+            target = "\\BAZ - Search And Rescue.dat"
+        case 3028:
+            source = "\\BAZ\\slimeysimple.dat"
+            target = "\\BAZ - Slimey Simple.dat"
+        case 3029:
+            source = "\\BAZ\\splitdownthemiddle.dat"
+            target = "\\BAZ - Split Down The Middle.dat"
+        case 3030:
+            source = "\\BAZ\\thehardrocklife.dat"
+            target = "\\BAZ - The Hard Rock Life.dat"
+        case 3031:
+            source = "\\BAZ\\thepathtopower.dat"
+            target = "\\BAZ - The Path To Power.dat"
+        case 3032:
+            source = "\\BAZ\\waterlotoffun.dat"
+            target = "\\BAZ - Water Lot Of Fun.dat"
+        case 3033:
+            source = "\\BAZ\\waterworks.dat"
+            target = "\\BAZ - Water Works.dat"
         case _:
             return False
     source_path = pathlib.Path(main_level_dir + source)
