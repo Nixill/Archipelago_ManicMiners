@@ -611,11 +611,6 @@ def create_all_items(world: ManicMinersWorld) -> None:
     for item in VEHICLE_UNLOCK_LIST:
         itempool_vehicles.append(world.create_item(item))        
     
-    number_of_items = len(itempool)
-    number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player))
-    needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
-    itempool += [world.create_filler() for _ in range(needed_number_of_filler_items)]
-    
     for item in initial_access_item_list:
         world.push_precollected(item)
     
@@ -636,6 +631,11 @@ def create_all_items(world: ManicMinersWorld) -> None:
     else:
         for item in itempool_vehicles:
             world.push_precollected(item)
+    
+    number_of_items = len(itempool)
+    number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player))
+    needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
+    itempool += [world.create_filler() for _ in range(needed_number_of_filler_items)]
     
     world.multiworld.itempool += itempool
 
