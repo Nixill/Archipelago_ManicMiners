@@ -41,7 +41,6 @@ From the Archipelago Launcher, open the Manic Miners Client, and run `/reset_ins
 
 The very first time you do this, you will be prompted to select the folder that contains your Manic Miners custom Levels folder. This will be in your user's Documents, and you should select the '..../Documents/ManicMiners' folder (which will contain 'Levels'). Once selected for the first time, you don't need to do this again. Should you ever need to change this setting, you can find it in your Archipelago `host.yaml` under `manicminers_options`.
 
-Similarly, you will be prompted to select the folder that contains your Manic Miners save profiles. This will be in your LOCALAPPDATA or equivalent, and will be of the form '..../ManicMiners/Saved/SaveGames/Profiles/'. Once selected for the first time, you don't need to do this again. Should you ever need to change this setting, you can find it in your Archipelago `host.yaml` under `manicminers_options`.
 
 ## How to connect to a running game
 
