@@ -609,7 +609,7 @@ def create_all_items(world: ManicMinersWorld) -> None:
 
     itempool_vehicles = []
     for item in VEHICLE_UNLOCK_LIST:
-        itempool_vehicles.append(world.create_item(item))        
+        itempool_vehicles.append(world.create_item(item))
     
     for item in initial_access_item_list:
         world.push_precollected(item)
