@@ -1169,7 +1169,7 @@ def create_regular_locations(world: ManicMinersWorld) -> None:
         region_baz_searchandrescue = world.get_region("BAZ - Search And Rescue")
         region_baz_silmeysimple = world.get_region("BAZ - Slimey Simple")
         region_baz_splitdownthemiddle = world.get_region("BAZ - Split Down The Middle")
-        region_baz_therockhardlife = world.get_region("BAZ - The Rock Hard Life")
+        region_baz_thehardrocklife = world.get_region("BAZ - The Hard Rock Life")
         region_baz_thepathtopower = world.get_region("BAZ - The Path To Power")
         region_baz_waterlotoffun = world.get_region("BAZ - Water Lot Of Fun")
         region_baz_waterworks = world.get_region("BAZ - Water Works")
@@ -1232,8 +1232,8 @@ def create_regular_locations(world: ManicMinersWorld) -> None:
         region_baz_slimeysimple.add_locations(locations_baz_slimeysimple, ManicMinersLocation)
         locations_baz_splitdownthemiddle = get_location_names_with_ids(["Clear: BAZ - Split Down The Middle"])
         region_baz_splitdownthemiddle.add_locations(locations_baz_splitdownthemiddle, ManicMinersLocation)
-        locations_baz_therockhardlife = get_location_names_with_ids(["Clear: BAZ - The Rock Hard Life"])
-        region_baz_therockhardlife.add_locations(locations_baz_therockhardlife, ManicMinersLocation)
+        locations_baz_thehardrocklife = get_location_names_with_ids(["Clear: BAZ - The Hard Rock Life"])
+        region_baz_thehardrocklife.add_locations(locations_baz_thehardrocklife, ManicMinersLocation)
         locations_baz_thepathtopower = get_location_names_with_ids(["Clear: BAZ - The Path To Power"])
         region_baz_thepathtopower.add_locations(locations_baz_thepathtopower, ManicMinersLocation)
         locations_baz_waterlotoffun = get_location_names_with_ids(["Clear: BAZ - Water Lot Of Fun"])
@@ -1300,8 +1300,8 @@ def create_regular_locations(world: ManicMinersWorld) -> None:
             region_baz_slimeysimple.add_locations(locations_baz_slimeysimple, ManicMinersLocation)
             locations_baz_splitdownthemiddle = get_location_names_with_ids(["Beat Par Time: BAZ - Split Down The Middle"])
             region_baz_splitdownthemiddle.add_locations(locations_baz_splitdownthemiddle, ManicMinersLocation)
-            locations_baz_therockhardlife = get_location_names_with_ids(["Beat Par Time: BAZ - The Rock Hard Life"])
-            region_baz_therockhardlife.add_locations(locations_baz_therockhardlife, ManicMinersLocation)
+            locations_baz_thehardrocklife = get_location_names_with_ids(["Beat Par Time: BAZ - The Hard Rock Life"])
+            region_baz_thehardrocklife.add_locations(locations_baz_thehardrocklife, ManicMinersLocation)
             locations_baz_thepathtopower = get_location_names_with_ids(["Beat Par Time: BAZ - The Path To Power"])
             region_baz_thepathtopower.add_locations(locations_baz_thepathtopower, ManicMinersLocation)
             locations_baz_waterlotoffun = get_location_names_with_ids(["Beat Par Time: BAZ - Water Lot Of Fun"])
@@ -1506,7 +1506,7 @@ def create_events(world: ManicMinersWorld) -> None:
         region_baz_searchandrescue = world.get_region("BAZ - Search And Rescue")
         region_baz_silmeysimple = world.get_region("BAZ - Slimey Simple")
         region_baz_splitdownthemiddle = world.get_region("BAZ - Split Down The Middle")
-        region_baz_therockhardlife = world.get_region("BAZ - The Rock Hard Life")
+        region_baz_thehardrocklife = world.get_region("BAZ - The Hard Rock Life")
         region_baz_thepathtopower = world.get_region("BAZ - The Path To Power")
         region_baz_waterlotoffun = world.get_region("BAZ - Water Lot Of Fun")
         region_baz_waterworks = world.get_region("BAZ - Water Works")
@@ -1541,7 +1541,7 @@ def create_events(world: ManicMinersWorld) -> None:
             region_baz_searchandrescue.add_event("Completable: BAZ - Search And Rescue", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
             region_baz_slimeysimple.add_event("Completable: BAZ - Slimey Simple", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
             region_baz_splitdownthemiddle.add_event("Completable: BAZ - Split Down The Middle", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
-            region_baz_therockhardlife.add_event("Completable: BAZ - The Rock Hard Life", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
+            region_baz_thehardrocklife.add_event("Completable: BAZ - The Hard Rock Life", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
             region_baz_thepathtopower.add_event("Completable: BAZ - The Path To Power", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
             region_baz_waterlotoffun.add_event("Completable: BAZ - Water Lot Of Fun", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
             region_baz_waterworks.add_event("Completable: BAZ - Water Works", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
@@ -1865,7 +1865,7 @@ def location_id_from_level_name(level_name):
             return 3028
         case "Archipelago/BAZ - Split Down The Middle":
             return 3029
-        case "Archipelago/BAZ - The Rock Hard Life":
+        case "Archipelago/BAZ - The Hard Rock Life":
             return 3030
         case "Archipelago/BAZ - The Path To Power":
             return 3031

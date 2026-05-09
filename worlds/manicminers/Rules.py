@@ -191,7 +191,7 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
     world.set_rule(entrance_lrrc_fireandwater, (rule_can_breathe & rule_can_swim & Has("Level Access: LRRC - Fire And Water")))
     world.set_rule(entrance_lrrc_frozenfrenzy, (rule_can_blast & Has("Level Access: LRRC - Frozen Frenzy") & rule_can_always_breathe))
     world.set_rule(entrance_lrrc_hotstuff, (rule_can_breathe & Has("Level Access: LRRC - Hot Stuff")))
-    world.set_rule(entrance_lrrc_icespy, (Has("Level Access: LRRC - Ice Spy" & rule_can_always_breathe)))
+    world.set_rule(entrance_lrrc_icespy, (Has("Level Access: LRRC - Ice Spy") & rule_can_always_breathe))
     world.set_rule(entrance_lrrc_itsaholdup, Has("Level Access: LRRC - It's A Hold Up"))
     world.set_rule(entrance_lrrc_lakeoffire, Has("Level Access: LRRC - Lake Of Fire"))
     world.set_rule(entrance_lrrc_lavalaughter, (Has("Level Access: LRRC - Lava Laughter") & rule_can_always_breathe))
@@ -208,7 +208,7 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
     
     #BAZ
     
-    entrance_baz_abreathoffreshair = world.get_entrance("Start Level: BAZ - A Breath Of Fresh Air")
+    entrance_baz_abreathoffreshair = world.get_entrance("Start Level - BAZ - A Breath Of Fresh Air")
     entrance_baz_airraiders = world.get_entrance("Start Level - BAZ - Air Raiders")
     entrance_baz_backtobasics = world.get_entrance("Start Level - BAZ - Back To Basics")
     entrance_baz_breathless = world.get_entrance("Start Level - BAZ - Breathless")
@@ -237,7 +237,7 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
     entrance_baz_searchandrescue = world.get_entrance("Start Level - BAZ - Search And Rescue")
     entrance_baz_slimeysimple = world.get_entrance("Start Level - BAZ - Slimey Simple")
     entrance_baz_splitdownthemiddle = world.get_entrance("Start Level - BAZ - Split Down The Middle")
-    entrance_baz_therockhardlife = world.get_entrance("Start Level - BAZ - The Rock Hard Life")
+    entrance_baz_thehardrocklife = world.get_entrance("Start Level - BAZ - The Hard Rock Life")
     entrance_baz_thepathtopower = world.get_entrance("Start Level - BAZ - The Path To Power")
     entrance_baz_waterlotoffun = world.get_entrance("Start Level - BAZ - Water Lot Of Fun")
     entrance_baz_waterworks = world.get_entrance("Start Level - BAZ - Water Works")
@@ -271,7 +271,7 @@ def set_all_entrance_rules(world: ManicMinersWorld) -> None:
     # world.set_rule(entrance_baz_searchandrescue, Has("Level Access: BAZ - Search And Rescue"))
     # world.set_rule(entrance_baz_slimeysimple, Has("Level Access: BAZ - Slimey Simple"))
     # world.set_rule(entrance_baz_splitdownthemiddle, Has("Level Access: BAZ - Split Down The Middle"))
-    # world.set_rule(entrance_baz_therockhardlife, Has("Level Access: BAZ - The Rock Hard Life"))
+    # world.set_rule(entrance_baz_thehardrocklife, Has("Level Access: BAZ - The Hard Rock Life"))
     # world.set_rule(entrance_baz_thepathtopower, Has("Level Access: BAZ - The Path To Power"))
     # world.set_rule(entrance_baz_waterlotoffun, Has("Level Access: BAZ - Water Lot Of Fun"))
     # world.set_rule(entrance_baz_waterworks, Has("Level Access: BAZ - Water Works"))

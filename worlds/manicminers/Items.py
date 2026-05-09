@@ -271,7 +271,7 @@ DEFAULT_ITEM_CLASSIFICATIONS = {
     "Level Access: BAZ - Search And Rescue": ItemClassification.progression,
     "Level Access: BAZ - Slimey Simple": ItemClassification.progression,
     "Level Access: BAZ - Split Down The Middle": ItemClassification.progression,
-    "Level Access: BAZ - The Rock Hard Life": ItemClassification.progression,
+    "Level Access: BAZ - The Hard Rock Life": ItemClassification.progression,
     "Level Access: BAZ - The Path To Power": ItemClassification.progression,
     "Level Access: BAZ - Water Lot Of Fun": ItemClassification.progression,
     "Level Access: BAZ - Water Works": ItemClassification.progression,
@@ -442,7 +442,7 @@ LEVEL_ACCESS_BAZ_NEEDSUNLOCK_LIST = [
     "Level Access: BAZ - Seamless",
     "Level Access: BAZ - Search And Rescue",
     "Level Access: BAZ - Slimey Simple",
-    "Level Access: BAZ - The Rock Hard Life",
+    "Level Access: BAZ - The Hard Rock Life",
     "Level Access: BAZ - The Path To Power",
     "Level Access: BAZ - Water Lot Of Fun",
     "Level Access: BAZ - Water Works"
