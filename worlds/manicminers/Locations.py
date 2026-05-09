@@ -1580,15 +1580,44 @@ def check_for_victory(options):
     elif options["victory_condition"] == 2: # total_target_time
         total_time = 0
         level_count = 0
+        target_time = 0
         match options["target_time_difficulty"]:
             case 0:
-                target_time = TARGET_TOTAL_CLEAR_TIME_EASY
+                if options["campaign_selection_lrr"]:
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRR_EASY
+                if options["campaign_selection_lrrr"]:
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRRR_EASY
+                if options["campaign_selection_lrrc"]
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRRC_EASY
+                if options["campaign_selection_baz"]
+                    target_time += TARGET_TOTAL_CLEAR_TIME_BAZ_EASY
             case 1:
-                target_time = TARGET_TOTAL_CLEAR_TIME_MEDIUM
+                if options["campaign_selection_lrr"]:
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRR_MEDIUM
+                if options["campaign_selection_lrrr"]:
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRRR_MEDIUM
+                if options["campaign_selection_lrrc"]
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRRC_MEDIUM
+                if options["campaign_selection_baz"]
+                    target_time += TARGET_TOTAL_CLEAR_TIME_BAZ_MEDIUM
             case 2:
-                target_time = TARGET_TOTAL_CLEAR_TIME_HARD
+                if options["campaign_selection_lrr"]:
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRR_HARD
+                if options["campaign_selection_lrrr"]:
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRRR_HARD
+                if options["campaign_selection_lrrc"]
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRRC_HARD
+                if options["campaign_selection_baz"]
+                    target_time += TARGET_TOTAL_CLEAR_TIME_BAZ_HARD
             case 3:
-                target_time = TARGET_TOTAL_CLEAR_TIME_ROCK_HARD
+                if options["campaign_selection_lrr"]:
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRR_ROCK_HARD
+                if options["campaign_selection_lrrr"]:
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRRR_ROCK_HARD
+                if options["campaign_selection_lrrc"]
+                    target_time += TARGET_TOTAL_CLEAR_TIME_LRRC_ROCK_HARD
+                if options["campaign_selection_baz"]
+                    target_time += TARGET_TOTAL_CLEAR_TIME_BAZ_ROCK_HARD
             case _:
                 target_time = -1
         for level in levelDataList:
