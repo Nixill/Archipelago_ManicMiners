@@ -27,7 +27,7 @@ The current options are:
 
 ### What campaigns are supported?
 
-All four campaigns from Manic Miners are supported: Standard, Remastered, Classic, and Baz's Mod. 
+Three campaigns from Manic Miners are supported: Standard, Remastered, Classic. Support for Baz's Mod is planned. 
 
 The first three campaigns each have 25 levels, while Baz's Mod has 33. 
 
@@ -35,7 +35,7 @@ The first three campaigns each have 25 levels, while Baz's Mod has 33.
 
 Each level is initially locked, with Level Access items available to find. Therefore levels will also become available in a random order. 
 
-Additionally, you can configure Buildings, Items, and Vehicles to be locked until discoverable. 
+Additionally, you can configure Buildings, Items, and/or Vehicles to be locked until discoverable. 
 
 ### Where can I find items in Manic Miners? 
 
