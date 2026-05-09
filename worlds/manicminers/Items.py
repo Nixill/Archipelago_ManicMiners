@@ -366,7 +366,7 @@ LEVEL_ACCESS_LRRR_NEEDSUNLOCK_LIST = [
     "Level Access: LRRR - Oresome",
     "Level Access: LRRR - Rock Hard",
     "Level Access: LRRR - Rocky Horror",
-    "Level Access: LRRR - Rubble Trouble",,
+    "Level Access: LRRR - Rubble Trouble",
     "Level Access: LRRR - Search And Rescue",
     "Level Access: LRRR - Split Down The Middle",
     "Level Access: LRRR - The Path To Power",
@@ -410,11 +410,42 @@ LEVEL_ACCESS_LRRC_NEEDSUNLOCK_LIST = [
 LEVEL_ACCESS_LRRC_LIST = LEVEL_ACCESS_LRRC_NOUNLOCK_LIST + LEVEL_ACCESS_LRRC_NEEDSUNLOCK_LIST
 
 LEVEL_ACCESS_BAZ_NOUNLOCK_LIST = [
-
+    "Level Access: BAZ - Mine Over Matter",
+    "Level Access: BAZ - Driller Night",
+    "Level Access: BAZ - Split Down The Middle"
 ]
 
 LEVEL_ACCESS_BAZ_NEEDSUNLOCK_LIST = [
-
+    "Level Access: BAZ - A Breath Of Fresh Air",
+    "Level Access: BAZ - Air Raiders",
+    "Level Access: BAZ - Back To Basics",
+    "Level Access: BAZ - Breathless",
+    "Level Access: BAZ - Cold Comfort",
+    "Level Access: BAZ - Don't Panic",
+    "Level Access: BAZ - Down In The Dirt",
+    "Level Access: BAZ - Erode Works",
+    "Level Access: BAZ - Explosive Action",
+    "Level Access: BAZ - Fire And Water",
+    "Level Access: BAZ - Frozen Frenzy",
+    "Level Access: BAZ - Hot Stuff",
+    "Level Access: BAZ - Ice Spy",
+    "Level Access: BAZ - It's A Hold Up",
+    "Level Access: BAZ - Lake Of Fire",
+    "Level Access: BAZ - Lava Laughter",
+    "Level Access: BAZ - Molten Meltdown",
+    "Level Access: BAZ - Oresome",
+    "Level Access: BAZ - Recruitment",
+    "Level Access: BAZ - Rock Hard",
+    "Level Access: BAZ - Rocky Horror",
+    "Level Access: BAZ - Rubble Trouble",
+    "Level Access: BAZ - Run The Gauntlet",
+    "Level Access: BAZ - Seamless",
+    "Level Access: BAZ - Search And Rescue",
+    "Level Access: BAZ - Slimey Simple",
+    "Level Access: BAZ - The Rock Hard Life",
+    "Level Access: BAZ - The Path To Power",
+    "Level Access: BAZ - Water Lot Of Fun",
+    "Level Access: BAZ - Water Works"
 ]
 
 LEVEL_ACCESS_BAZ_LIST = LEVEL_ACCESS_BAZ_NOUNLOCK_LIST + LEVEL_ACCESS_BAZ_NEEDSUNLOCK_LIST
