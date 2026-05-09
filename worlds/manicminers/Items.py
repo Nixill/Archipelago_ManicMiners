@@ -344,11 +344,34 @@ LEVEL_ACCESS_LRR_NEEDSUNLOCK_LIST = [
 LEVEL_ACCESS_LRR_LIST = LEVEL_ACCESS_LRR_NOUNLOCK_LIST + LEVEL_ACCESS_LRR_NEEDSUNLOCK_LIST
 
 LEVEL_ACCESS_LRRR_NOUNLOCK_LIST = [
-
+    "Level Access: LRRR - Don't Panic",
+    "Level Access: LRRR - Driller Night",
+    "Level Access: LRRR - Run The Gauntlet"
 ]
 
 LEVEL_ACCESS_LRRR_NEEDSUNLOCK_LIST = [
-
+    "Level Access: LRRR - A Breath Of Fresh Air",
+    "Level Access: LRRR - Air Raiders",
+    "Level Access: LRRR - Back To Basics",
+    "Level Access: LRRR - Breathless",
+    "Level Access: LRRR - Erode Works",
+    "Level Access: LRRR - Explosive Action",
+    "Level Access: LRRR - Fire And Water",
+    "Level Access: LRRR - Frozen Frenzy",
+    "Level Access: LRRR - Hot Stuff",
+    "Level Access: LRRR - Ice Spy",
+    "Level Access: LRRR - It's A Hold Up",
+    "Level Access: LRRR - Lake Of Fire",
+    "Level Access: LRRR - Lava Laughter",
+    "Level Access: LRRR - Oresome",
+    "Level Access: LRRR - Rock Hard",
+    "Level Access: LRRR - Rocky Horror",
+    "Level Access: LRRR - Rubble Trouble",,
+    "Level Access: LRRR - Search And Rescue",
+    "Level Access: LRRR - Split Down The Middle",
+    "Level Access: LRRR - The Path To Power",
+    "Level Access: LRRR - Water Lot Of Fun",
+    "Level Access: LRRR - Water Works"
 ]
 
 LEVEL_ACCESS_LRRR_LIST = LEVEL_ACCESS_LRRR_NOUNLOCK_LIST + LEVEL_ACCESS_LRRR_NEEDSUNLOCK_LIST
