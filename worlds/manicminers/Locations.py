@@ -232,7 +232,7 @@ LOCATION_NAME_TO_ID = {
     "Beat Par Time: BAZ - Water Works": 3066   
 }
 
-TARGET_CLEAR_TIME_LRR_EASY = {
+TARGET_CLEAR_TIME_EASY = {
     "LRR - A Breath Of Fresh Air": 900, # 15:00
     "LRR - Air Raiders": 2400, # 40:00
     "LRR - Back To Basics": 2700, # 45:00
@@ -257,110 +257,7 @@ TARGET_CLEAR_TIME_LRR_EASY = {
     "LRR - Split Down The Middle": 720, # 12:00
     "LRR - The Path To Power": 540, # 09:00
     "LRR - Water Lot Of Fun": 960, # 16:00
-    "LRR - Water Works": 840 # 14:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRR_EASY = 0
-for level in TARGET_CLEAR_TIME_LRR_EASY:
-    TARGET_TOTAL_CLEAR_TIME_LRR_EASY += TARGET_CLEAR_TIME_LRR_EASY[level]
-
-TARGET_CLEAR_TIME_LRR_MEDIUM = {
-    "LRR - A Breath Of Fresh Air": 540, # 8:00
-    "LRR - Air Raiders": 1500, # 25:00
-    "LRR - Back To Basics": 1800, # 30:00
-    "LRR - Breathless": 420, # 07:00
-    "LRR - Don't Panic": 420, # 07:00
-    "LRR - Driller Night": 120, # 02:00
-    "LRR - Erode Works": 600, # 10:00
-    "LRR - Explosive Action": 420, # 07:00
-    "LRR - Fire And Water": 780, # 13:00
-    "LRR - Frozen Frenzy": 540, # 09:00
-    "LRR - Hot Stuff": 780, # 13:00
-    "LRR - Ice Spy": 720, # 12:00
-    "LRR - It's A Hold Up": 360, # 06:00
-    "LRR - Lake Of Fire": 540, # 09:00
-    "LRR - Lava Laughter": 600, # 10:00
-    "LRR - Oresome": 720, # 12:00
-    "LRR - Rock Hard": 960, # 16:00
-    "LRR - Rocky Horror": 1500, # 25:00
-    "LRR - Rubble Trouble": 300, # 05:00
-    "LRR - Run The Gauntlet": 360, # 06:00
-    "LRR - Search And Rescue": 420, # 07:00
-    "LRR - Split Down The Middle": 480, # 08:00
-    "LRR - The Path To Power": 360, # 06:00
-    "LRR - Water Lot Of Fun": 660, # 11:00
-    "LRR - Water Works": 540 # 09:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRR_MEDIUM = 0
-for level in TARGET_CLEAR_TIME_LRR_MEDIUM:
-    TARGET_TOTAL_CLEAR_TIME_LRR_MEDIUM += TARGET_CLEAR_TIME_LRR_MEDIUM[level]
-    
-TARGET_CLEAR_TIME_LRR_HARD = {
-    "LRR - A Breath Of Fresh Air": 300, # 5:00
-    "LRR - Air Raiders": 1080, # 18:00
-    "LRR - Back To Basics": 1200, # 20:00
-    "LRR - Breathless": 210, # 03:30
-    "LRR - Don't Panic": 300, # 05:00
-    "LRR - Driller Night": 90, # 01:30
-    "LRR - Erode Works": 390, # 06:30
-    "LRR - Explosive Action": 210, # 03:30
-    "LRR - Fire And Water": 540, # 09:00
-    "LRR - Frozen Frenzy": 360, # 06:00
-    "LRR - Hot Stuff": 570, # 09:30
-    "LRR - Ice Spy": 480, # 08:00
-    "LRR - It's A Hold Up": 240, # 04:00
-    "LRR - Lake Of Fire": 390, # 06:30
-    "LRR - Lava Laughter": 450, # 07:30
-    "LRR - Oresome": 480, # 08:00
-    "LRR - Rock Hard": 660, # 11:00
-    "LRR - Rocky Horror": 1080, # 18:00
-    "LRR - Rubble Trouble": 180, # 03:00
-    "LRR - Run The Gauntlet": 240, # 04:00
-    "LRR - Search And Rescue": 270, # 04:30
-    "LRR - Split Down The Middle": 300, # 05:00
-    "LRR - The Path To Power": 240, # 04:00
-    "LRR - Water Lot Of Fun": 420, # 07:00
-    "LRR - Water Works": 360 # 06:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRR_HARD = 0
-for level in TARGET_CLEAR_TIME_LRR_HARD:
-    TARGET_TOTAL_CLEAR_TIME_LRR_HARD += TARGET_CLEAR_TIME_LRR_HARD[level]
-
-TARGET_CLEAR_TIME_LRR_ROCK_HARD = {
-    "LRR - A Breath Of Fresh Air": 240, # 04:00
-    "LRR - Air Raiders": 900, # 15:00 
-    "LRR - Back To Basics": 1020, # 17:00
-    "LRR - Breathless": 150, # 02:30
-    "LRR - Don't Panic": 270, # 04:30
-    "LRR - Driller Night": 60, # 01:00
-    "LRR - Erode Works": 300, # 05:00
-    "LRR - Explosive Action": 150, # 02:30
-    "LRR - Fire And Water": 450, # 07:30
-    "LRR - Frozen Frenzy": 600, # 05:00
-    "LRR - Hot Stuff": 510, # 08:30
-    "LRR - Ice Spy": 420, # 07:00
-    "LRR - It's A Hold Up": 210, # 03:30
-    "LRR - Lake Of Fire": 630, # 05:30
-    "LRR - Lava Laughter": 360, # 06:00
-    "LRR - Oresome": 420, # 07:00
-    "LRR - Rock Hard": 600, # 10:00
-    "LRR - Rocky Horror": 900, # 15:00
-    "LRR - Rubble Trouble": 150, # 02:30
-    "LRR - Run The Gauntlet": 180, # 03:00
-    "LRR - Search And Rescue": 210, # 03:30
-    "LRR - Split Down The Middle": 240, # 04:00
-    "LRR - The Path To Power": 180, # 03:00
-    "LRR - Water Lot Of Fun": 360, # 06:00
-    "LRR - Water Works": 300 # 05:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRR_ROCK_HARD = 0
-for level in TARGET_CLEAR_TIME_LRR_ROCK_HARD:
-    TARGET_TOTAL_CLEAR_TIME_LRR_ROCK_HARD += TARGET_CLEAR_TIME_LRR_ROCK_HARD[level]
-
-TARGET_CLEAR_TIME_LRRR_EASY = {
+    "LRR - Water Works": 840, # 14:00
     "LRRR - A Breath Of Fresh Air": 1800, # 30:00
     "LRRR - Air Raiders": 3600, # 60:00
     "LRRR - Back To Basics": 7200, # 120:00
@@ -386,13 +283,96 @@ TARGET_CLEAR_TIME_LRRR_EASY = {
     "LRRR - The Path To Power": 1500, # 25:00
     "LRRR - Water Lot Of Fun": 1500, # 25:00
     "LRRR - Water Works": 3000, # 50:00
+    "LRRC - A Breath Of Fresh Air": 300, # 5:00
+    "LRRC - Air Raiders": 900, # 15:00
+    "LRRC - Back To Basics": 1080, # 18:00
+    "LRRC - Breathless": 240, # 04:00
+    "LRRC - Don't Panic": 300, # 05:00
+    "LRRC - Driller Night": 90, # 01:30
+    "LRRC - Erode Works": 480, # 08:00
+    "LRRC - Explosive Action": 270, # 04:30
+    "LRRC - Fire And Water": 840, # 14:00
+    "LRRC - Frozen Frenzy": 360, # 06:00
+    "LRRC - Hot Stuff": 840, # 14:00
+    "LRRC - Ice Spy": 510, # 08:30
+    "LRRC - It's A Hold Up": 210, # 03:30
+    "LRRC - Lake Of Fire": 390, # 06:30
+    "LRRC - Lava Laughter": 420, # 07:00
+    "LRRC - Oresome": 540, # 09:00
+    "LRRC - Rock Hard": 510, # 08:30
+    "LRRC - Rocky Horror": 1200, # 20:00
+    "LRRC - Rubble Trouble": 180, # 03:00
+    "LRRC - Run The Gauntlet": 300, # 05:00
+    "LRRC - Search And Rescue": 300, # 05:00
+    "LRRC - Split Down The Middle": 270, # 04:30
+    "LRRC - The Path To Power": 240, # 04:00
+    "LRRC - Water Lot Of Fun": 420, # 07:00
+    "LRRC - Water Works": 300, # 05:00
+    "BAZ - A Breath Of Fresh Air": 99999,
+    "BAZ - Air Raiders": 99999,
+    "BAZ - Back To Basics": 99999,
+    "BAZ - Breathless": 99999,
+    "BAZ - Cold Comfort": 99999,
+    "BAZ - Don't Panic": 99999,
+    "BAZ - Down In The Dirt": 99999,
+    "BAZ - Driller Night": 99999,
+    "BAZ - Erode Works": 99999,
+    "BAZ - Explosive Action": 99999,
+    "BAZ - Fire And Water": 99999,
+    "BAZ - Frozen Frenzy": 99999,
+    "BAZ - Hot Stuff": 99999,
+    "BAZ - Ice Spy": 99999,
+    "BAZ - It's A Hold Up": 99999,
+    "BAZ - Lake Of Fire": 99999,
+    "BAZ - Lava Laughter": 99999,
+    "BAZ - Mine Over Matter": 99999,
+    "BAZ - Molten Meltdown": 99999,
+    "BAZ - Oresome": 99999,
+    "BAZ - Rock Hard": 99999,
+    "BAZ - Recruitment": 99999,
+    "BAZ - Rocky Horror": 99999,
+    "BAZ - Rubble Trouble": 99999,
+    "BAZ - Run The Gauntlet": 99999,
+    "BAZ - Seamless": 99999,
+    "BAZ - Search And Rescue": 99999,
+    "BAZ - Slimey Simple": 99999,
+    "BAZ - Split Down The Middle": 99999,
+    "BAZ - The Hard Rock Life": 99999,
+    "BAZ - The Path To Power": 99999,
+    "BAZ - Water Lot Of Fun": 99999,
+    "BAZ - Water Works": 99999
 }
 
-TARGET_TOTAL_CLEAR_TIME_LRRR_EASY = 0
-for level in TARGET_CLEAR_TIME_LRRR_EASY:
-    TARGET_TOTAL_CLEAR_TIME_LRRR_EASY += TARGET_CLEAR_TIME_LRRR_EASY[level]
+TARGET_TOTAL_CLEAR_TIME_LRR_EASY = 0
+for level in TARGET_CLEAR_TIME_LRR_EASY:
+    TARGET_TOTAL_CLEAR_TIME_LRR_EASY += TARGET_CLEAR_TIME_LRR_EASY[level]
 
-TARGET_CLEAR_TIME_LRRR_MEDIUM = {
+TARGET_CLEAR_TIME_MEDIUM = {
+    "LRR - A Breath Of Fresh Air": 540, # 8:00
+    "LRR - Air Raiders": 1500, # 25:00
+    "LRR - Back To Basics": 1800, # 30:00
+    "LRR - Breathless": 420, # 07:00
+    "LRR - Don't Panic": 420, # 07:00
+    "LRR - Driller Night": 120, # 02:00
+    "LRR - Erode Works": 600, # 10:00
+    "LRR - Explosive Action": 420, # 07:00
+    "LRR - Fire And Water": 780, # 13:00
+    "LRR - Frozen Frenzy": 540, # 09:00
+    "LRR - Hot Stuff": 780, # 13:00
+    "LRR - Ice Spy": 720, # 12:00
+    "LRR - It's A Hold Up": 360, # 06:00
+    "LRR - Lake Of Fire": 540, # 09:00
+    "LRR - Lava Laughter": 600, # 10:00
+    "LRR - Oresome": 720, # 12:00
+    "LRR - Rock Hard": 960, # 16:00
+    "LRR - Rocky Horror": 1500, # 25:00
+    "LRR - Rubble Trouble": 300, # 05:00
+    "LRR - Run The Gauntlet": 360, # 06:00
+    "LRR - Search And Rescue": 420, # 07:00
+    "LRR - Split Down The Middle": 480, # 08:00
+    "LRR - The Path To Power": 360, # 06:00
+    "LRR - Water Lot Of Fun": 660, # 11:00
+    "LRR - Water Works": 540, # 09:00
     "LRRR - A Breath Of Fresh Air": 1200, # 20:00
     "LRRR - Air Raiders": 2700, # 45:00
     "LRRR - Back To Basics": 5400, # 90:00
@@ -418,13 +398,96 @@ TARGET_CLEAR_TIME_LRRR_MEDIUM = {
     "LRRR - The Path To Power": 1080, # 18:00
     "LRRR - Water Lot Of Fun": 1080, # 18:00
     "LRRR - Water Works": 2280, # 38:00
+    "LRRC - A Breath Of Fresh Air": 300, # 5:00
+    "LRRC - Air Raiders": 900, # 15:00
+    "LRRC - Back To Basics": 1080, # 18:00
+    "LRRC - Breathless": 240, # 04:00
+    "LRRC - Don't Panic": 300, # 05:00
+    "LRRC - Driller Night": 90, # 01:30
+    "LRRC - Erode Works": 480, # 08:00
+    "LRRC - Explosive Action": 270, # 04:30
+    "LRRC - Fire And Water": 840, # 14:00
+    "LRRC - Frozen Frenzy": 360, # 06:00
+    "LRRC - Hot Stuff": 840, # 14:00
+    "LRRC - Ice Spy": 510, # 08:30
+    "LRRC - It's A Hold Up": 210, # 03:30
+    "LRRC - Lake Of Fire": 390, # 06:30
+    "LRRC - Lava Laughter": 420, # 07:00
+    "LRRC - Oresome": 540, # 09:00
+    "LRRC - Rock Hard": 510, # 08:30
+    "LRRC - Rocky Horror": 1200, # 20:00
+    "LRRC - Rubble Trouble": 180, # 03:00
+    "LRRC - Run The Gauntlet": 300, # 05:00
+    "LRRC - Search And Rescue": 300, # 05:00
+    "LRRC - Split Down The Middle": 270, # 04:30
+    "LRRC - The Path To Power": 240, # 04:00
+    "LRRC - Water Lot Of Fun": 420, # 07:00
+    "LRRC - Water Works": 300, # 05:00
+    "BAZ - A Breath Of Fresh Air": 99999,
+    "BAZ - Air Raiders": 99999,
+    "BAZ - Back To Basics": 99999,
+    "BAZ - Breathless": 99999,
+    "BAZ - Cold Comfort": 99999,
+    "BAZ - Don't Panic": 99999,
+    "BAZ - Down In The Dirt": 99999,
+    "BAZ - Driller Night": 99999,
+    "BAZ - Erode Works": 99999,
+    "BAZ - Explosive Action": 99999,
+    "BAZ - Fire And Water": 99999,
+    "BAZ - Frozen Frenzy": 99999,
+    "BAZ - Hot Stuff": 99999,
+    "BAZ - Ice Spy": 99999,
+    "BAZ - It's A Hold Up": 99999,
+    "BAZ - Lake Of Fire": 99999,
+    "BAZ - Lava Laughter": 99999,
+    "BAZ - Mine Over Matter": 99999,
+    "BAZ - Molten Meltdown": 99999,
+    "BAZ - Oresome": 99999,
+    "BAZ - Rock Hard": 99999,
+    "BAZ - Recruitment": 99999,
+    "BAZ - Rocky Horror": 99999,
+    "BAZ - Rubble Trouble": 99999,
+    "BAZ - Run The Gauntlet": 99999,
+    "BAZ - Seamless": 99999,
+    "BAZ - Search And Rescue": 99999,
+    "BAZ - Slimey Simple": 99999,
+    "BAZ - Split Down The Middle": 99999,
+    "BAZ - The Hard Rock Life": 99999,
+    "BAZ - The Path To Power": 99999,
+    "BAZ - Water Lot Of Fun": 99999,
+    "BAZ - Water Works": 99999
 }
 
-TARGET_TOTAL_CLEAR_TIME_LRRR_MEDIUM = 0
-for level in TARGET_CLEAR_TIME_LRRR_MEDIUM:
-    TARGET_TOTAL_CLEAR_TIME_LRRR_MEDIUM += TARGET_CLEAR_TIME_LRRR_MEDIUM[level]
+TARGET_TOTAL_CLEAR_TIME_LRR_MEDIUM = 0
+for level in TARGET_CLEAR_TIME_LRR_MEDIUM:
+    TARGET_TOTAL_CLEAR_TIME_LRR_MEDIUM += TARGET_CLEAR_TIME_LRR_MEDIUM[level]
     
-TARGET_CLEAR_TIME_LRRR_HARD = {
+TARGET_CLEAR_TIME_HARD = {
+    "LRR - A Breath Of Fresh Air": 300, # 5:00
+    "LRR - Air Raiders": 1080, # 18:00
+    "LRR - Back To Basics": 1200, # 20:00
+    "LRR - Breathless": 210, # 03:30
+    "LRR - Don't Panic": 300, # 05:00
+    "LRR - Driller Night": 90, # 01:30
+    "LRR - Erode Works": 390, # 06:30
+    "LRR - Explosive Action": 210, # 03:30
+    "LRR - Fire And Water": 540, # 09:00
+    "LRR - Frozen Frenzy": 360, # 06:00
+    "LRR - Hot Stuff": 570, # 09:30
+    "LRR - Ice Spy": 480, # 08:00
+    "LRR - It's A Hold Up": 240, # 04:00
+    "LRR - Lake Of Fire": 390, # 06:30
+    "LRR - Lava Laughter": 450, # 07:30
+    "LRR - Oresome": 480, # 08:00
+    "LRR - Rock Hard": 660, # 11:00
+    "LRR - Rocky Horror": 1080, # 18:00
+    "LRR - Rubble Trouble": 180, # 03:00
+    "LRR - Run The Gauntlet": 240, # 04:00
+    "LRR - Search And Rescue": 270, # 04:30
+    "LRR - Split Down The Middle": 300, # 05:00
+    "LRR - The Path To Power": 240, # 04:00
+    "LRR - Water Lot Of Fun": 420, # 07:00
+    "LRR - Water Works": 360, # 06:00
     "LRRR - A Breath Of Fresh Air": 840, # 14:00
     "LRRR - Air Raiders": 1800, # 30:00
     "LRRR - Back To Basics": 3000, # 50:00
@@ -450,13 +513,96 @@ TARGET_CLEAR_TIME_LRRR_HARD = {
     "LRRR - The Path To Power": 660, # 11:00
     "LRRR - Water Lot Of Fun": 660, # 11:00
     "LRRR - Water Works": 1500, # 25:00
+    "LRRC - A Breath Of Fresh Air": 300, # 5:00
+    "LRRC - Air Raiders": 900, # 15:00
+    "LRRC - Back To Basics": 1080, # 18:00
+    "LRRC - Breathless": 240, # 04:00
+    "LRRC - Don't Panic": 300, # 05:00
+    "LRRC - Driller Night": 90, # 01:30
+    "LRRC - Erode Works": 480, # 08:00
+    "LRRC - Explosive Action": 270, # 04:30
+    "LRRC - Fire And Water": 840, # 14:00
+    "LRRC - Frozen Frenzy": 360, # 06:00
+    "LRRC - Hot Stuff": 840, # 14:00
+    "LRRC - Ice Spy": 510, # 08:30
+    "LRRC - It's A Hold Up": 210, # 03:30
+    "LRRC - Lake Of Fire": 390, # 06:30
+    "LRRC - Lava Laughter": 420, # 07:00
+    "LRRC - Oresome": 540, # 09:00
+    "LRRC - Rock Hard": 510, # 08:30
+    "LRRC - Rocky Horror": 1200, # 20:00
+    "LRRC - Rubble Trouble": 180, # 03:00
+    "LRRC - Run The Gauntlet": 300, # 05:00
+    "LRRC - Search And Rescue": 300, # 05:00
+    "LRRC - Split Down The Middle": 270, # 04:30
+    "LRRC - The Path To Power": 240, # 04:00
+    "LRRC - Water Lot Of Fun": 420, # 07:00
+    "LRRC - Water Works": 300, # 05:00
+    "BAZ - A Breath Of Fresh Air": 99999,
+    "BAZ - Air Raiders": 99999,
+    "BAZ - Back To Basics": 99999,
+    "BAZ - Breathless": 99999,
+    "BAZ - Cold Comfort": 99999,
+    "BAZ - Don't Panic": 99999,
+    "BAZ - Down In The Dirt": 99999,
+    "BAZ - Driller Night": 99999,
+    "BAZ - Erode Works": 99999,
+    "BAZ - Explosive Action": 99999,
+    "BAZ - Fire And Water": 99999,
+    "BAZ - Frozen Frenzy": 99999,
+    "BAZ - Hot Stuff": 99999,
+    "BAZ - Ice Spy": 99999,
+    "BAZ - It's A Hold Up": 99999,
+    "BAZ - Lake Of Fire": 99999,
+    "BAZ - Lava Laughter": 99999,
+    "BAZ - Mine Over Matter": 99999,
+    "BAZ - Molten Meltdown": 99999,
+    "BAZ - Oresome": 99999,
+    "BAZ - Rock Hard": 99999,
+    "BAZ - Recruitment": 99999,
+    "BAZ - Rocky Horror": 99999,
+    "BAZ - Rubble Trouble": 99999,
+    "BAZ - Run The Gauntlet": 99999,
+    "BAZ - Seamless": 99999,
+    "BAZ - Search And Rescue": 99999,
+    "BAZ - Slimey Simple": 99999,
+    "BAZ - Split Down The Middle": 99999,
+    "BAZ - The Hard Rock Life": 99999,
+    "BAZ - The Path To Power": 99999,
+    "BAZ - Water Lot Of Fun": 99999,
+    "BAZ - Water Works": 99999
 }
 
-TARGET_TOTAL_CLEAR_TIME_LRRR_HARD = 0
-for level in TARGET_CLEAR_TIME_LRRR_HARD:
-    TARGET_TOTAL_CLEAR_TIME_LRRR_HARD += TARGET_CLEAR_TIME_LRRR_HARD[level]
+TARGET_TOTAL_CLEAR_TIME_LRR_HARD = 0
+for level in TARGET_CLEAR_TIME_LRR_HARD:
+    TARGET_TOTAL_CLEAR_TIME_LRR_HARD += TARGET_CLEAR_TIME_LRR_HARD[level]
 
-TARGET_CLEAR_TIME_LRRR_ROCK_HARD = {
+TARGET_CLEAR_TIME_ROCK_HARD = {
+    "LRR - A Breath Of Fresh Air": 240, # 04:00
+    "LRR - Air Raiders": 900, # 15:00 
+    "LRR - Back To Basics": 1020, # 17:00
+    "LRR - Breathless": 150, # 02:30
+    "LRR - Don't Panic": 270, # 04:30
+    "LRR - Driller Night": 60, # 01:00
+    "LRR - Erode Works": 300, # 05:00
+    "LRR - Explosive Action": 150, # 02:30
+    "LRR - Fire And Water": 450, # 07:30
+    "LRR - Frozen Frenzy": 600, # 05:00
+    "LRR - Hot Stuff": 510, # 08:30
+    "LRR - Ice Spy": 420, # 07:00
+    "LRR - It's A Hold Up": 210, # 03:30
+    "LRR - Lake Of Fire": 630, # 05:30
+    "LRR - Lava Laughter": 360, # 06:00
+    "LRR - Oresome": 420, # 07:00
+    "LRR - Rock Hard": 600, # 10:00
+    "LRR - Rocky Horror": 900, # 15:00
+    "LRR - Rubble Trouble": 150, # 02:30
+    "LRR - Run The Gauntlet": 180, # 03:00
+    "LRR - Search And Rescue": 210, # 03:30
+    "LRR - Split Down The Middle": 240, # 04:00
+    "LRR - The Path To Power": 180, # 03:00
+    "LRR - Water Lot Of Fun": 360, # 06:00
+    "LRR - Water Works": 300, # 05:00
     "LRRR - A Breath Of Fresh Air": 660, # 11:00
     "LRRR - Air Raiders": 1440, # 24:00
     "LRRR - Back To Basics": 1800, # 30:00
@@ -482,13 +628,6 @@ TARGET_CLEAR_TIME_LRRR_ROCK_HARD = {
     "LRRR - The Path To Power": 480, # 08:00
     "LRRR - Water Lot Of Fun": 480, # 08:00
     "LRRR - Water Works": 1140, # 19:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRRR_ROCK_HARD = 0
-for level in TARGET_CLEAR_TIME_LRRR_ROCK_HARD:
-    TARGET_TOTAL_CLEAR_TIME_LRRR_ROCK_HARD += TARGET_CLEAR_TIME_LRRR_ROCK_HARD[level]
-
-TARGET_CLEAR_TIME_LRRC_EASY = {
     "LRRC - A Breath Of Fresh Air": 300, # 5:00
     "LRRC - Air Raiders": 900, # 15:00
     "LRRC - Back To Basics": 1080, # 18:00
@@ -514,109 +653,6 @@ TARGET_CLEAR_TIME_LRRC_EASY = {
     "LRRC - The Path To Power": 240, # 04:00
     "LRRC - Water Lot Of Fun": 420, # 07:00
     "LRRC - Water Works": 300, # 05:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRRC_EASY = 0
-for level in TARGET_CLEAR_TIME_LRRC_EASY:
-    TARGET_TOTAL_CLEAR_TIME_LRRC_EASY += TARGET_CLEAR_TIME_LRRC_EASY[level]
-
-TARGET_CLEAR_TIME_LRRC_MEDIUM = {
-    "LRRC - A Breath Of Fresh Air": 300, # 5:00
-    "LRRC - Air Raiders": 900, # 15:00
-    "LRRC - Back To Basics": 1080, # 18:00
-    "LRRC - Breathless": 240, # 04:00
-    "LRRC - Don't Panic": 300, # 05:00
-    "LRRC - Driller Night": 90, # 01:30
-    "LRRC - Erode Works": 480, # 08:00
-    "LRRC - Explosive Action": 270, # 04:30
-    "LRRC - Fire And Water": 840, # 14:00
-    "LRRC - Frozen Frenzy": 360, # 06:00
-    "LRRC - Hot Stuff": 840, # 14:00
-    "LRRC - Ice Spy": 510, # 08:30
-    "LRRC - It's A Hold Up": 210, # 03:30
-    "LRRC - Lake Of Fire": 390, # 06:30
-    "LRRC - Lava Laughter": 420, # 07:00
-    "LRRC - Oresome": 540, # 09:00
-    "LRRC - Rock Hard": 510, # 08:30
-    "LRRC - Rocky Horror": 1200, # 20:00
-    "LRRC - Rubble Trouble": 180, # 03:00
-    "LRRC - Run The Gauntlet": 300, # 05:00
-    "LRRC - Search And Rescue": 300, # 05:00
-    "LRRC - Split Down The Middle": 270, # 04:30
-    "LRRC - The Path To Power": 240, # 04:00
-    "LRRC - Water Lot Of Fun": 420, # 07:00
-    "LRRC - Water Works": 300, # 05:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRRC_MEDIUM = 0
-for level in TARGET_CLEAR_TIME_LRRC_MEDIUM:
-    TARGET_TOTAL_CLEAR_TIME_LRRC_MEDIUM += TARGET_CLEAR_TIME_LRRC_MEDIUM[level]
-    
-TARGET_CLEAR_TIME_LRRC_HARD = {
-    "LRRC - A Breath Of Fresh Air": 300, # 5:00
-    "LRRC - Air Raiders": 900, # 15:00
-    "LRRC - Back To Basics": 1080, # 18:00
-    "LRRC - Breathless": 240, # 04:00
-    "LRRC - Don't Panic": 300, # 05:00
-    "LRRC - Driller Night": 90, # 01:30
-    "LRRC - Erode Works": 480, # 08:00
-    "LRRC - Explosive Action": 270, # 04:30
-    "LRRC - Fire And Water": 840, # 14:00
-    "LRRC - Frozen Frenzy": 360, # 06:00
-    "LRRC - Hot Stuff": 840, # 14:00
-    "LRRC - Ice Spy": 510, # 08:30
-    "LRRC - It's A Hold Up": 210, # 03:30
-    "LRRC - Lake Of Fire": 390, # 06:30
-    "LRRC - Lava Laughter": 420, # 07:00
-    "LRRC - Oresome": 540, # 09:00
-    "LRRC - Rock Hard": 510, # 08:30
-    "LRRC - Rocky Horror": 1200, # 20:00
-    "LRRC - Rubble Trouble": 180, # 03:00
-    "LRRC - Run The Gauntlet": 300, # 05:00
-    "LRRC - Search And Rescue": 300, # 05:00
-    "LRRC - Split Down The Middle": 270, # 04:30
-    "LRRC - The Path To Power": 240, # 04:00
-    "LRRC - Water Lot Of Fun": 420, # 07:00
-    "LRRC - Water Works": 300, # 05:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRRC_HARD = 0
-for level in TARGET_CLEAR_TIME_LRRC_HARD:
-    TARGET_TOTAL_CLEAR_TIME_LRRC_HARD += TARGET_CLEAR_TIME_LRRC_HARD[level]
-
-TARGET_CLEAR_TIME_LRRC_ROCK_HARD = {
-    "LRRC - A Breath Of Fresh Air": 300, # 5:00
-    "LRRC - Air Raiders": 900, # 15:00
-    "LRRC - Back To Basics": 1080, # 18:00
-    "LRRC - Breathless": 240, # 04:00
-    "LRRC - Don't Panic": 300, # 05:00
-    "LRRC - Driller Night": 90, # 01:30
-    "LRRC - Erode Works": 480, # 08:00
-    "LRRC - Explosive Action": 270, # 04:30
-    "LRRC - Fire And Water": 840, # 14:00
-    "LRRC - Frozen Frenzy": 360, # 06:00
-    "LRRC - Hot Stuff": 840, # 14:00
-    "LRRC - Ice Spy": 510, # 08:30
-    "LRRC - It's A Hold Up": 210, # 03:30
-    "LRRC - Lake Of Fire": 390, # 06:30
-    "LRRC - Lava Laughter": 420, # 07:00
-    "LRRC - Oresome": 540, # 09:00
-    "LRRC - Rock Hard": 510, # 08:30
-    "LRRC - Rocky Horror": 1200, # 20:00
-    "LRRC - Rubble Trouble": 180, # 03:00
-    "LRRC - Run The Gauntlet": 300, # 05:00
-    "LRRC - Search And Rescue": 300, # 05:00
-    "LRRC - Split Down The Middle": 270, # 04:30
-    "LRRC - The Path To Power": 240, # 04:00
-    "LRRC - Water Lot Of Fun": 420, # 07:00
-    "LRRC - Water Works": 300, # 05:00
-}
-
-TARGET_TOTAL_CLEAR_TIME_LRRC_ROCK_HARD = 0
-for level in TARGET_CLEAR_TIME_LRRC_ROCK_HARD:
-    TARGET_TOTAL_CLEAR_TIME_LRRC_ROCK_HARD += TARGET_CLEAR_TIME_LRRC_ROCK_HARD[level]
-
-TARGET_CLEAR_TIME_BAZ_EASY = {
     "BAZ - A Breath Of Fresh Air": 99999,
     "BAZ - Air Raiders": 99999,
     "BAZ - Back To Basics": 99999,
@@ -652,129 +688,9 @@ TARGET_CLEAR_TIME_BAZ_EASY = {
     "BAZ - Water Works": 99999
 }
 
-TARGET_TOTAL_CLEAR_TIME_BAZ_EASY = 0
-for level in TARGET_CLEAR_TIME_BAZ_EASY:
-    TARGET_TOTAL_CLEAR_TIME_BAZ_EASY += TARGET_CLEAR_TIME_BAZ_EASY[level]
-
-TARGET_CLEAR_TIME_BAZ_MEDIUM = {
-    "BAZ - A Breath Of Fresh Air": 99999,
-    "BAZ - Air Raiders": 99999,
-    "BAZ - Back To Basics": 99999,
-    "BAZ - Breathless": 99999,
-    "BAZ - Cold Comfort": 99999,
-    "BAZ - Don't Panic": 99999,
-    "BAZ - Down In The Dirt": 99999,
-    "BAZ - Driller Night": 99999,
-    "BAZ - Erode Works": 99999,
-    "BAZ - Explosive Action": 99999,
-    "BAZ - Fire And Water": 99999,
-    "BAZ - Frozen Frenzy": 99999,
-    "BAZ - Hot Stuff": 99999,
-    "BAZ - Ice Spy": 99999,
-    "BAZ - It's A Hold Up": 99999,
-    "BAZ - Lake Of Fire": 99999,
-    "BAZ - Lava Laughter": 99999,
-    "BAZ - Mine Over Matter": 99999,
-    "BAZ - Molten Meltdown": 99999,
-    "BAZ - Oresome": 99999,
-    "BAZ - Rock Hard": 99999,
-    "BAZ - Recruitment": 99999,
-    "BAZ - Rocky Horror": 99999,
-    "BAZ - Rubble Trouble": 99999,
-    "BAZ - Run The Gauntlet": 99999,
-    "BAZ - Seamless": 99999,
-    "BAZ - Search And Rescue": 99999,
-    "BAZ - Slimey Simple": 99999,
-    "BAZ - Split Down The Middle": 99999,
-    "BAZ - The Hard Rock Life": 99999,
-    "BAZ - The Path To Power": 99999,
-    "BAZ - Water Lot Of Fun": 99999,
-    "BAZ - Water Works": 99999
-}
-
-TARGET_TOTAL_CLEAR_TIME_BAZ_MEDIUM = 0
-for level in TARGET_CLEAR_TIME_BAZ_MEDIUM:
-    TARGET_TOTAL_CLEAR_TIME_BAZ_MEDIUM += TARGET_CLEAR_TIME_BAZ_MEDIUM[level]
-    
-TARGET_CLEAR_TIME_BAZ_HARD = {
-    "BAZ - A Breath Of Fresh Air": 99999,
-    "BAZ - Air Raiders": 99999,
-    "BAZ - Back To Basics": 99999,
-    "BAZ - Breathless": 99999,
-    "BAZ - Cold Comfort": 99999,
-    "BAZ - Don't Panic": 99999,
-    "BAZ - Down In The Dirt": 99999,
-    "BAZ - Driller Night": 99999,
-    "BAZ - Erode Works": 99999,
-    "BAZ - Explosive Action": 99999,
-    "BAZ - Fire And Water": 99999,
-    "BAZ - Frozen Frenzy": 99999,
-    "BAZ - Hot Stuff": 99999,
-    "BAZ - Ice Spy": 99999,
-    "BAZ - It's A Hold Up": 99999,
-    "BAZ - Lake Of Fire": 99999,
-    "BAZ - Lava Laughter": 99999,
-    "BAZ - Mine Over Matter": 99999,
-    "BAZ - Molten Meltdown": 99999,
-    "BAZ - Oresome": 99999,
-    "BAZ - Rock Hard": 99999,
-    "BAZ - Recruitment": 99999,
-    "BAZ - Rocky Horror": 99999,
-    "BAZ - Rubble Trouble": 99999,
-    "BAZ - Run The Gauntlet": 99999,
-    "BAZ - Seamless": 99999,
-    "BAZ - Search And Rescue": 99999,
-    "BAZ - Slimey Simple": 99999,
-    "BAZ - Split Down The Middle": 99999,
-    "BAZ - The Hard Rock Life": 99999,
-    "BAZ - The Path To Power": 99999,
-    "BAZ - Water Lot Of Fun": 99999,
-    "BAZ - Water Works": 99999
-}
-
-TARGET_TOTAL_CLEAR_TIME_BAZ_HARD = 0
-for level in TARGET_CLEAR_TIME_BAZ_HARD:
-    TARGET_TOTAL_CLEAR_TIME_BAZ_HARD += TARGET_CLEAR_TIME_BAZ_HARD[level]
-
-TARGET_CLEAR_TIME_BAZ_ROCK_HARD = {
-    "BAZ - A Breath Of Fresh Air": 99999,
-    "BAZ - Air Raiders": 99999,
-    "BAZ - Back To Basics": 99999,
-    "BAZ - Breathless": 99999,
-    "BAZ - Cold Comfort": 99999,
-    "BAZ - Don't Panic": 99999,
-    "BAZ - Down In The Dirt": 99999,
-    "BAZ - Driller Night": 99999,
-    "BAZ - Erode Works": 99999,
-    "BAZ - Explosive Action": 99999,
-    "BAZ - Fire And Water": 99999,
-    "BAZ - Frozen Frenzy": 99999,
-    "BAZ - Hot Stuff": 99999,
-    "BAZ - Ice Spy": 99999,
-    "BAZ - It's A Hold Up": 99999,
-    "BAZ - Lake Of Fire": 99999,
-    "BAZ - Lava Laughter": 99999,
-    "BAZ - Mine Over Matter": 99999,
-    "BAZ - Molten Meltdown": 99999,
-    "BAZ - Oresome": 99999,
-    "BAZ - Rock Hard": 99999,
-    "BAZ - Recruitment": 99999,
-    "BAZ - Rocky Horror": 99999,
-    "BAZ - Rubble Trouble": 99999,
-    "BAZ - Run The Gauntlet": 99999,
-    "BAZ - Seamless": 99999,
-    "BAZ - Search And Rescue": 99999,
-    "BAZ - Slimey Simple": 99999,
-    "BAZ - Split Down The Middle": 99999,
-    "BAZ - The Hard Rock Life": 99999,
-    "BAZ - The Path To Power": 99999,
-    "BAZ - Water Lot Of Fun": 99999,
-    "BAZ - Water Works": 99999
-}
-
-TARGET_TOTAL_CLEAR_TIME_BAZ_ROCK_HARD = 0
-for level in TARGET_CLEAR_TIME_BAZ_ROCK_HARD:
-    TARGET_TOTAL_CLEAR_TIME_BAZ_ROCK_HARD += TARGET_CLEAR_TIME_BAZ_ROCK_HARD[level]
+TARGET_TOTAL_CLEAR_TIME_LRR_ROCK_HARD = 0
+for level in TARGET_CLEAR_TIME_LRR_ROCK_HARD:
+    TARGET_TOTAL_CLEAR_TIME_LRR_ROCK_HARD += TARGET_CLEAR_TIME_LRR_ROCK_HARD[level]
 
 def get_location_names_with_ids(location_names: list[str]) -> dict[str, int | None]:
     return {location_name: LOCATION_NAME_TO_ID[location_name] for location_name in location_names}
