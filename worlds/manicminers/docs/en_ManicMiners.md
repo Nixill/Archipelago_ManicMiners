@@ -59,7 +59,7 @@ A necessary first step to a fresh Archipelago run, this wipes and refreshes all 
 
 This command will wipe all Archipelago data from the Manic Miners installation, should you wish for a simple uninstall. 
 
-#### `/mining_report`
+#### `/chiefs_report`
 
 Shows Manic Miners specific information about your current progress, such as how many things you've unlocked or how many levels you've cleared. 
 

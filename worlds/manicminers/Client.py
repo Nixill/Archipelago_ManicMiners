@@ -37,26 +37,31 @@ class ManicMinersClientCommandProcessor(ClientCommandProcessor):
         WARNING: Will delete all Archipelago saved data."""
         cleanup_install(self)
     
-    def _cmd_mining_report(self):
+    def _cmd_chiefs_report(self):
         """
-        Returns game information such as selected goal and levels cleared.
+        Returns overall game information such as selected goal and levels cleared.
         """
         if not hasattr(self.ctx,"slot_data"):
             self.output(f"Not connected to server!")
         else:              
-            def count_cleared_levels():
+            def count_cleared_levels_ap():
                 all_locations = set(self.ctx.checked_locations)
-                clear_locations = set(range(1,26))
+                clear_locations = set(range(1,26)) | set(range(1001,1026)) | set(range(2001,2026)) | set(range(3001,3034))
                 return len(all_locations & clear_locations)
             
+            def count_cleared_levels_local():
+                all_locations = set(Locations.get_locations_from_save_data(self.ctx.slot_data))
+                clear_locations = set(range(1,26)) | set(range(1001,1026)) | set(range(2001,2026)) | set(range(3001,3034))
+                return len(all_locations & clear_locations)
+                
             def count_beaten_par_time_levels():
                 all_locations = set(self.ctx.checked_locations)
-                par_time_locations = set(range(26,51))
+                par_time_locations = set(range(101,126)) | set(range(1101,1126)) | set(range(2101,2126)) | set(range(3101,3134))
                 return len(all_locations & par_time_locations)
             
             def count_available_levels():
                 all_items = set(get_ids_from_networkitems(self.ctx.items_received))
-                level_items = set(range(1,26))
+                level_items = set(range(1,26)) | set(range(1001,1026)) | set(range(2001,2026)) | set(range(3001,3034))
                 return len(all_items & level_items)
             
             def count_available_buildings():
@@ -74,14 +79,92 @@ class ManicMinersClientCommandProcessor(ClientCommandProcessor):
                 level_items = set(range(875,887))
                 return len(all_items & level_items)
                 
+            def count_total_time():
+                level_count = count_cleared_levels_local()
+                if level_count >= self.ctx.slot_data["target_level_count"]:
+                    total_time = 0
+                    if platform.system() == "Windows":
+                        lad = os.getenv('LOCALAPPDATA')
+                        save_path = lad + "\\ManicMiners\\Saved\\SaveGames\\Profiles\\Archipelago.sav"
+                    levelDataList = ParseSaveFile.parseAllLevelsFromFilepath(save_path)
+                    for level in levelDataList:
+                        location_id = Locations.location_id_from_level_name(level[0])
+                        if (location_id != -1):
+                            total_time += level[1]
+                    return total_time
+                else:
+                    return -1
             
+            def count_total_levels():
+                level_count = 0
+                if self.ctx.slot_data["campaign_selection_lrr"]:
+                    level_count += 25
+                if self.ctx.slot_data["campaign_selection_lrrr"]:
+                    level_count += 25
+                if self.ctx.slot_data["campaign_selection_lrrc"]:
+                    level_count += 25
+                # if self.ctx.slot_data["campaign_selection_baz"]:
+                    # level_count += 33
+                return level_count
+
             if self.ctx.slot_data["victory_condition"] == 0:
                 self.output(f"Goal: Clear {self.ctx.slot_data["target_level_count"]} levels")
             elif self.ctx.slot_data["victory_condition"] == 1:
                 self.output(f"Goal: Beat par time on {self.ctx.slot_data["target_level_count"]} levels")
+            elif self.ctx.slot_data["victory_condition"] == 2:
+                target_time = 0
+                match self.ctx.slot_data["target_time_difficulty"]:
+                    case 0:
+                        if self.ctx.slot_data["campaign_selection_lrr"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRR_EASY
+                        if self.ctx.slot_data["campaign_selection_lrrr"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRRR_EASY
+                        if self.ctx.slot_data["campaign_selection_lrrc"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRRC_EASY
+                        # if self.ctx.slot_data["campaign_selection_baz"]:
+                            # target_time += Locations.TARGET_TOTAL_CLEAR_TIME_BAZ_EASY
+                    case 1:
+                        if self.ctx.slot_data["campaign_selection_lrr"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRR_MEDIUM
+                        if self.ctx.slot_data["campaign_selection_lrrr"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRRR_MEDIUM
+                        if self.ctx.slot_data["campaign_selection_lrrc"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRRC_MEDIUM
+                        # if self.ctx.slot_data["campaign_selection_baz"]:
+                            # target_time += Locations.TARGET_TOTAL_CLEAR_TIME_BAZ_MEDIUM
+                    case 2:
+                        if self.ctx.slot_data["campaign_selection_lrr"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRR_HARD
+                        if self.ctx.slot_data["campaign_selection_lrrr"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRRR_HARD
+                        if self.ctx.slot_data["campaign_selection_lrrc"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRRC_HARD
+                        # if self.ctx.slot_data["campaign_selection_baz"]:
+                            # target_time += Locations.TARGET_TOTAL_CLEAR_TIME_BAZ_HARD
+                    case 3:
+                        if self.ctx.slot_data["campaign_selection_lrr"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRR_ROCK_HARD
+                        if self.ctx.slot_data["campaign_selection_lrrr"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRRR_ROCK_HARD
+                        if self.ctx.slot_data["campaign_selection_lrrc"]:
+                            target_time += Locations.TARGET_TOTAL_CLEAR_TIME_LRRC_ROCK_HARD
+                        # if self.ctx.slot_data["campaign_selection_baz"]:
+                            # target_time += Locations.TARGET_TOTAL_CLEAR_TIME_BAZ_ROCK_HARD
+                    case _:
+                        target_time = -1
+                time_tuple = divmod(target_time, 60)
+                self.output(f'Goal: Beat Total Target Time: {time_tuple[0]:02d}:{time_tuple[1]:02d}')
+                total_time = count_total_time()
+                if total_time != -1:
+                    time_tuple = divmod(total_time, 60)
+                    self.output(f'Total Target Time: {time_tuple[0]:02d}:{time_tuple[1]:02d}')
+                else:
+                    self.output(f"Current Total Time will be reported here once all levels are cleared locally.")
+            
  
-            self.output(f"Levels available: {count_available_levels()}") 
-            self.output(f"Levels cleared: {count_cleared_levels()}")
+            self.output(f"Levels available: {count_available_levels()}/{count_total_levels()}") 
+            self.output(f"Levels cleared (in Archipelago): {count_cleared_levels_ap()}")
+            self.output(f"Levels cleared (in local state): {count_cleared_levels_local()}")
             
             if ((self.ctx.slot_data["victory_condition"] in [1,2]) or (self.ctx.slot_data["target_times_are_checks"] == 1)):
                 match self.ctx.slot_data["target_time_difficulty"]:
@@ -98,7 +181,6 @@ class ManicMinersClientCommandProcessor(ClientCommandProcessor):
                 self.output(f"Time difficulty: {time_difficulty}")
                 if self.ctx.slot_data["victory_condition"] == 1 or self.ctx.slot_data["target_times_are_checks"] == 1:
                     self.output(f"Par times beaten: {count_beaten_par_time_levels()}")
-                self.output(f"Target details can be seen with the /check_watch command.")
             
             if self.ctx.slot_data["buildings_are_items"] == 1:
                 self.output(f"Buildings available: {count_available_buildings()}/11")
