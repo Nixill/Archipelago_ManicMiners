@@ -247,16 +247,16 @@ TARGET_CLEAR_TIME_EASY = {
     "LRR - Hot Stuff": 1200, # 20:00
     "LRR - Ice Spy": 1080, # 18:00
     "LRR - It's A Hold Up": 600, # 10:00
-    "LRR - Lake Of Fire": 900, # 15:00
+    "LRR - Lake Of Fire": 1200, # 20:00
     "LRR - Lava Laughter": 900, # 15:00
     "LRR - Oresome": 1080, # 18:00
-    "LRR - Rock Hard": 1320, # 22:00
+    "LRR - Rock Hard": 1800, # 30:00
     "LRR - Rocky Horror": 2400, # 40:00
     "LRR - Rubble Trouble": 480, # 08:00
     "LRR - Run The Gauntlet": 600, # 10:00
     "LRR - Search And Rescue": 660, # 11:00
     "LRR - Split Down The Middle": 720, # 12:00
-    "LRR - The Path To Power": 540, # 09:00
+    "LRR - The Path To Power": 600, # 10:00
     "LRR - Water Lot Of Fun": 960, # 16:00
     "LRR - Water Works": 840, # 14:00
     "LRRR - A Breath Of Fresh Air": 1800, # 30:00
@@ -371,19 +371,19 @@ TARGET_CLEAR_TIME_MEDIUM = {
     "LRR - Explosive Action": 420, # 07:00
     "LRR - Fire And Water": 780, # 13:00
     "LRR - Frozen Frenzy": 540, # 09:00
-    "LRR - Hot Stuff": 780, # 13:00
+    "LRR - Hot Stuff": 900, # 15:00
     "LRR - Ice Spy": 720, # 12:00
     "LRR - It's A Hold Up": 360, # 06:00
-    "LRR - Lake Of Fire": 540, # 09:00
+    "LRR - Lake Of Fire": 900, # 15:00
     "LRR - Lava Laughter": 600, # 10:00
     "LRR - Oresome": 720, # 12:00
-    "LRR - Rock Hard": 960, # 16:00
+    "LRR - Rock Hard": 1200, # 20:00
     "LRR - Rocky Horror": 1500, # 25:00
     "LRR - Rubble Trouble": 300, # 05:00
     "LRR - Run The Gauntlet": 360, # 06:00
     "LRR - Search And Rescue": 420, # 07:00
     "LRR - Split Down The Middle": 480, # 08:00
-    "LRR - The Path To Power": 360, # 06:00
+    "LRR - The Path To Power": 420, # 07:00
     "LRR - Water Lot Of Fun": 660, # 11:00
     "LRR - Water Works": 540, # 09:00
     "LRRR - A Breath Of Fresh Air": 1200, # 20:00
@@ -501,7 +501,7 @@ TARGET_CLEAR_TIME_HARD = {
     "LRR - Hot Stuff": 570, # 09:30
     "LRR - Ice Spy": 480, # 08:00
     "LRR - It's A Hold Up": 240, # 04:00
-    "LRR - Lake Of Fire": 390, # 06:30
+    "LRR - Lake Of Fire": 480, # 08:00
     "LRR - Lava Laughter": 450, # 07:30
     "LRR - Oresome": 480, # 08:00
     "LRR - Rock Hard": 660, # 11:00
