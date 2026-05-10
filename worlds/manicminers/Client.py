@@ -194,6 +194,33 @@ class ManicMinersClientCommandProcessor(ClientCommandProcessor):
             if self.ctx.finished_game:
                 self.output(f"Goal complete! Great work, Cadet. We'll make a Manic Miner out of you yet!")
 
+    def _cmd_mining_map(self):
+        """Displays a list of unlocked, incomplete levels."""
+
+        if not hasattr(self.ctx,"slot_data"):
+            self.output(f"Not connected to server!")
+        else:
+            item_names = []
+            location_names = []
+            for item in get_ids_from_networkitems(self.ctx.items_received):
+                item_name = list(Items.ITEM_NAME_TO_ID.keys())[list(Items.ITEM_NAME_TO_ID.values()).index(item)]
+                if item_name[:13] == "Level Access:":
+                    item_names.append(item_name[13:])
+            for location in  self.ctx.missing_locations:
+                location_name = list(Locations.LOCATION_NAME_TO_ID.keys())[list(Locations.LOCATION_NAME_TO_ID.values()).index(location)]
+                if location_name[:6] == "Clear:":
+                    location_names.append(location_name[6:])
+            intersection = list(set(item_names) & set(location_names))
+            intersection.sort()
+            number_levels = len(intersection)
+            if number_levels == 0:
+                self.output(f"You have no available levels that you haven't cleared!")
+            else:
+                self.output(f"The following {len(intersection)} levels are available, but not cleared.")
+                self.output(f"(They may not yet be clearable with your current unlocks.)")
+                for level_name in intersection:
+                    self.output(f"{level_name}")
+
     def _cmd_check_watch(self):
         """Returns target time details for campaigns/levels, if applicable."""
  

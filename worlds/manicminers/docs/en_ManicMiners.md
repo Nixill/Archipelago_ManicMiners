@@ -61,7 +61,11 @@ This command will wipe all Archipelago data from the Manic Miners installation, 
 
 #### `/chiefs_report`
 
-Shows Manic Miners specific information about your current progress, such as how many things you've unlocked or how many levels you've cleared. 
+Shows overall game information about your current progress, such as how many things you've unlocked or how many levels you've cleared. 
+
+#### `/mining_map`
+
+Shows specific game information about which levels are accessible, but not yet cleared. It _only_ considers the level unlock items, and does not factor if you have all other prerequisites. 
 
 #### `/check_watch`
 
