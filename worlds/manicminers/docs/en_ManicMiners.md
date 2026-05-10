@@ -69,7 +69,7 @@ Shows specific game information about which levels are accessible, but not yet c
 
 #### `/check_watch`
 
-Shows current target times, if applicable. 
+Shows specific game information about which target times are accessible, but not yet cleared. It _only_ considers the level unlock items, and does not factor if you have all other prerequisites.
 
 ## Under the hood
 

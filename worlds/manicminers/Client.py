@@ -205,11 +205,11 @@ class ManicMinersClientCommandProcessor(ClientCommandProcessor):
             for item in get_ids_from_networkitems(self.ctx.items_received):
                 item_name = list(Items.ITEM_NAME_TO_ID.keys())[list(Items.ITEM_NAME_TO_ID.values()).index(item)]
                 if item_name[:13] == "Level Access:":
-                    item_names.append(item_name[13:])
+                    item_names.append(item_name[14:])
             for location in  self.ctx.missing_locations:
                 location_name = list(Locations.LOCATION_NAME_TO_ID.keys())[list(Locations.LOCATION_NAME_TO_ID.values()).index(location)]
                 if location_name[:6] == "Clear:":
-                    location_names.append(location_name[6:])
+                    location_names.append(location_name[7:])
             intersection = list(set(item_names) & set(location_names))
             intersection.sort()
             number_levels = len(intersection)
@@ -227,24 +227,7 @@ class ManicMinersClientCommandProcessor(ClientCommandProcessor):
         if not hasattr(self.ctx,"slot_data"):
             self.output(f"Not connected to server!")
         else:
-            need_time_details = False
-            if self.ctx.slot_data["victory_condition"] == 2:
-                need_time_details = True
-                match self.ctx.slot_data["target_time_difficulty"]:
-                    case 0:
-                        time_goal = Locations.TARGET_TOTAL_CLEAR_TIME_EASY
-                    case 1:
-                        time_goal = Locations.TARGET_TOTAL_CLEAR_TIME_MEDIUM
-                    case 2:
-                        time_goal = Locations.TARGET_TOTAL_CLEAR_TIME_HARD
-                    case 3:
-                        time_goal = Locations.TARGET_TOTAL_CLEAR_TIME_ROCK_HARD
-                    case _:
-                        time_goal = 99999
-                time_tuple = divmod(time_goal, 60)
-                self.output(f'Total Target Time: {time_tuple[0]:02d}:{time_tuple[1]:02d}')
             if self.ctx.slot_data["victory_condition"] == 1 or self.ctx.slot_data["target_times_are_checks"] == 1:
-                need_time_details = True
                 match self.ctx.slot_data["target_time_difficulty"]:
                     case 0:
                         time_target_list = Locations.TARGET_CLEAR_TIME_EASY
@@ -256,10 +239,30 @@ class ManicMinersClientCommandProcessor(ClientCommandProcessor):
                         time_target_list = Locations.TARGET_CLEAR_TIME_ROCK_HARD
                     case _:
                         time_target_list = []
-                for time_target in time_target_list:
-                    time_tuple = divmod(time_target_list[time_target], 60)
-                    self.output(f"Target time for '{time_target}' is {time_tuple[0]:02d}:{time_tuple[1]:02d}")
-            if need_time_details == False:
+                item_names = []
+                location_names = []
+                for item in get_ids_from_networkitems(self.ctx.items_received):
+                    item_name = list(Items.ITEM_NAME_TO_ID.keys())[list(Items.ITEM_NAME_TO_ID.values()).index(item)]
+                    if item_name[:13] == "Level Access:":
+                        item_names.append(item_name[14:])
+                for location in  self.ctx.missing_locations:
+                    location_name = list(Locations.LOCATION_NAME_TO_ID.keys())[list(Locations.LOCATION_NAME_TO_ID.values()).index(location)]
+                    if location_name[:14] == "Beat Par Time:":
+                        location_names.append(location_name[15:])
+                intersection = list(set(item_names) & set(location_names))
+                intersection.sort()
+                number_levels = len(intersection)
+                if number_levels == 0:
+                    self.output(f"You have no available target times that you haven't met!")
+                else:
+                    self.output(f"The following {len(intersection)} target times are available, but not met.")
+                    self.output(f"(They may not yet be meetable with your current unlocks.)")
+                for level_name in intersection:
+                    time_tuple = divmod(time_target_list[level_name], 60)
+                    self.output(f"{level_name}: {time_tuple[0]:02d}:{time_tuple[1]:02d}")
+            elif self.ctx.slot_data["victory_condition"] == 2:
+                self.output(f"Overall time targets can be seen in /chiefs_report.")
+            else:
                 self.output(f"You don't need to check your watch for anything. Explore Planet U at your own leisure!")
 
 def cleanup_install(self):
