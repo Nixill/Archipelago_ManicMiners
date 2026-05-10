@@ -78,3 +78,19 @@ Secondly, it scans the Archipelago-specific save file for level data, to determi
 ## Problems? 
 
 I'm sure there's issues hiding just out of sight, like Slimy Slugs waiting to strike. Please reach out on our channel in the [Archipelago Discord](https://discord.com/channels/731205301247803413/1170769670350045284) if you have any issues or feedback! 
+
+## Contributors
+
+Manic Miners created by:
+
+Baraklava
+
+AP Mod created and maintained by:
+
+fogmike
+
+The following users have been of particular help with this mod, via various playtesting/suggestions/research/feedback:
+
+jurjen909
+Nixill
+Ruinae Retroque Rursus
