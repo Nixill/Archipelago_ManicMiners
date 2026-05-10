@@ -40,6 +40,7 @@ LOCATION_NAME_TO_ID = {
     "Clear: LRR - The Path To Power": 23,
     "Clear: LRR - Water Lot Of Fun": 24,
     "Clear: LRR - Water Works": 25,
+    
     "Beat Par Time: LRR - A Breath Of Fresh Air": 101,
     "Beat Par Time: LRR - Air Raiders": 102,
     "Beat Par Time: LRR - Back To Basics": 103,
@@ -65,6 +66,7 @@ LOCATION_NAME_TO_ID = {
     "Beat Par Time: LRR - The Path To Power": 123,
     "Beat Par Time: LRR - Water Lot Of Fun": 124,
     "Beat Par Time: LRR - Water Works": 125,
+    
     "Clear: LRRR - A Breath Of Fresh Air": 1001,
     "Clear: LRRR - Air Raiders": 1002,
     "Clear: LRRR - Back To Basics": 1003,
@@ -90,6 +92,7 @@ LOCATION_NAME_TO_ID = {
     "Clear: LRRR - The Path To Power": 1023,
     "Clear: LRRR - Water Lot Of Fun": 1024,
     "Clear: LRRR - Water Works": 1025,
+    
     "Beat Par Time: LRRR - A Breath Of Fresh Air": 1101,
     "Beat Par Time: LRRR - Air Raiders": 1102,
     "Beat Par Time: LRRR - Back To Basics": 1103,
@@ -115,6 +118,7 @@ LOCATION_NAME_TO_ID = {
     "Beat Par Time: LRRR - The Path To Power": 1123,
     "Beat Par Time: LRRR - Water Lot Of Fun": 1124,
     "Beat Par Time: LRRR - Water Works": 1125,
+    
     "Clear: LRRC - A Breath Of Fresh Air": 2001,
     "Clear: LRRC - Air Raiders": 2002,
     "Clear: LRRC - Back To Basics": 2003,
@@ -140,6 +144,7 @@ LOCATION_NAME_TO_ID = {
     "Clear: LRRC - The Path To Power": 2023,
     "Clear: LRRC - Water Lot Of Fun": 2024,
     "Clear: LRRC - Water Works": 2025,
+    
     "Beat Par Time: LRRC - A Breath Of Fresh Air": 2101,
     "Beat Par Time: LRRC - Air Raiders": 2102,
     "Beat Par Time: LRRC - Back To Basics": 2103,
@@ -165,6 +170,7 @@ LOCATION_NAME_TO_ID = {
     "Beat Par Time: LRRC - The Path To Power": 2123,
     "Beat Par Time: LRRC - Water Lot Of Fun": 2124,
     "Beat Par Time: LRRC - Water Works": 2125,
+    
     "Clear: BAZ - A Breath Of Fresh Air": 3001,
     "Clear: BAZ - Air Raiders": 3002,
     "Clear: BAZ - Back To Basics": 3003,
@@ -198,6 +204,7 @@ LOCATION_NAME_TO_ID = {
     "Clear: BAZ - The Path To Power": 3031,
     "Clear: BAZ - Water Lot Of Fun": 3032,
     "Clear: BAZ - Water Works": 3033,
+    
     "Beat Par Time: BAZ - A Breath Of Fresh Air": 3101,
     "Beat Par Time: BAZ - Air Raiders": 3102,
     "Beat Par Time: BAZ - Back To Basics": 3103,
@@ -259,6 +266,7 @@ TARGET_CLEAR_TIME_EASY = {
     "LRR - The Path To Power": 600, # 10:00
     "LRR - Water Lot Of Fun": 960, # 16:00
     "LRR - Water Works": 840, # 14:00
+    
     "LRRR - A Breath Of Fresh Air": 1800, # 30:00
     "LRRR - Air Raiders": 3600, # 60:00
     "LRRR - Back To Basics": 7200, # 120:00
@@ -284,6 +292,7 @@ TARGET_CLEAR_TIME_EASY = {
     "LRRR - The Path To Power": 1500, # 25:00
     "LRRR - Water Lot Of Fun": 1500, # 25:00
     "LRRR - Water Works": 3000, # 50:00
+    
     "LRRC - A Breath Of Fresh Air": 300, # 5:00
     "LRRC - Air Raiders": 900, # 15:00
     "LRRC - Back To Basics": 1080, # 18:00
@@ -309,6 +318,7 @@ TARGET_CLEAR_TIME_EASY = {
     "LRRC - The Path To Power": 240, # 04:00
     "LRRC - Water Lot Of Fun": 420, # 07:00
     "LRRC - Water Works": 300, # 05:00
+    
     "BAZ - A Breath Of Fresh Air": 99999,
     "BAZ - Air Raiders": 99999,
     "BAZ - Back To Basics": 99999,
@@ -386,6 +396,7 @@ TARGET_CLEAR_TIME_MEDIUM = {
     "LRR - The Path To Power": 420, # 07:00
     "LRR - Water Lot Of Fun": 660, # 11:00
     "LRR - Water Works": 540, # 09:00
+    
     "LRRR - A Breath Of Fresh Air": 1200, # 20:00
     "LRRR - Air Raiders": 2700, # 45:00
     "LRRR - Back To Basics": 5400, # 90:00
@@ -411,6 +422,7 @@ TARGET_CLEAR_TIME_MEDIUM = {
     "LRRR - The Path To Power": 1080, # 18:00
     "LRRR - Water Lot Of Fun": 1080, # 18:00
     "LRRR - Water Works": 2280, # 38:00
+    
     "LRRC - A Breath Of Fresh Air": 300, # 5:00
     "LRRC - Air Raiders": 900, # 15:00
     "LRRC - Back To Basics": 1080, # 18:00
@@ -436,6 +448,7 @@ TARGET_CLEAR_TIME_MEDIUM = {
     "LRRC - The Path To Power": 240, # 04:00
     "LRRC - Water Lot Of Fun": 420, # 07:00
     "LRRC - Water Works": 300, # 05:00
+    
     "BAZ - A Breath Of Fresh Air": 99999,
     "BAZ - Air Raiders": 99999,
     "BAZ - Back To Basics": 99999,
@@ -513,6 +526,7 @@ TARGET_CLEAR_TIME_HARD = {
     "LRR - The Path To Power": 240, # 04:00
     "LRR - Water Lot Of Fun": 420, # 07:00
     "LRR - Water Works": 360, # 06:00
+    
     "LRRR - A Breath Of Fresh Air": 840, # 14:00
     "LRRR - Air Raiders": 1800, # 30:00
     "LRRR - Back To Basics": 3000, # 50:00
@@ -538,6 +552,7 @@ TARGET_CLEAR_TIME_HARD = {
     "LRRR - The Path To Power": 660, # 11:00
     "LRRR - Water Lot Of Fun": 660, # 11:00
     "LRRR - Water Works": 1500, # 25:00
+    
     "LRRC - A Breath Of Fresh Air": 300, # 5:00
     "LRRC - Air Raiders": 900, # 15:00
     "LRRC - Back To Basics": 1080, # 18:00
@@ -563,6 +578,7 @@ TARGET_CLEAR_TIME_HARD = {
     "LRRC - The Path To Power": 240, # 04:00
     "LRRC - Water Lot Of Fun": 420, # 07:00
     "LRRC - Water Works": 300, # 05:00
+    
     "BAZ - A Breath Of Fresh Air": 99999,
     "BAZ - Air Raiders": 99999,
     "BAZ - Back To Basics": 99999,
@@ -640,6 +656,7 @@ TARGET_CLEAR_TIME_ROCK_HARD = {
     "LRR - The Path To Power": 180, # 03:00
     "LRR - Water Lot Of Fun": 360, # 06:00
     "LRR - Water Works": 300, # 05:00
+    
     "LRRR - A Breath Of Fresh Air": 660, # 11:00
     "LRRR - Air Raiders": 1440, # 24:00
     "LRRR - Back To Basics": 1800, # 30:00
@@ -665,6 +682,7 @@ TARGET_CLEAR_TIME_ROCK_HARD = {
     "LRRR - The Path To Power": 480, # 08:00
     "LRRR - Water Lot Of Fun": 480, # 08:00
     "LRRR - Water Works": 1140, # 19:00
+    
     "LRRC - A Breath Of Fresh Air": 300, # 5:00
     "LRRC - Air Raiders": 900, # 15:00
     "LRRC - Back To Basics": 1080, # 18:00
@@ -690,6 +708,7 @@ TARGET_CLEAR_TIME_ROCK_HARD = {
     "LRRC - The Path To Power": 240, # 04:00
     "LRRC - Water Lot Of Fun": 420, # 07:00
     "LRRC - Water Works": 300, # 05:00
+    
     "BAZ - A Breath Of Fresh Air": 99999,
     "BAZ - Air Raiders": 99999,
     "BAZ - Back To Basics": 99999,
