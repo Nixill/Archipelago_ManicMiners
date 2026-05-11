@@ -116,21 +116,21 @@ class CampaignSelectionLRR(DefaultOnToggle):
     
     display_name = "Include 'Standard' Campaign Levels"
     
-class CampaignSelectionLRRR(DefaultOnToggle):
+class CampaignSelectionLRRR(Toggle):
     """
     Whether your game will include the Remastered campaign levels.
     """
     
     display_name = "Include 'Remastered' Campaign Levels"
 
-class CampaignSelectionLRRC(DefaultOnToggle):
+class CampaignSelectionLRRC(Toggle):
     """
     Whether your game will include the Classic campaign levels.
     """
     
     display_name = "Include 'Classic' Campaign Levels"
 
-# class CampaignSelectionBAZ(DefaultOnToggle):
+# class CampaignSelectionBAZ(Toggle):
     # """
     # Whether your game will include the Baz's Mod campaign levels.
     # """
