@@ -41,7 +41,6 @@ From the Archipelago Launcher, open the Manic Miners Client, and run `/reset_ins
 
 The very first time you do this, you will be prompted to select the folder that contains your Manic Miners custom Levels folder. This will be in your user's Documents, and you should select the '..../Documents/ManicMiners' folder (which will contain 'Levels'). Once selected for the first time, you don't need to do this again. Should you ever need to change this setting, you can find it in your Archipelago `host.yaml` under `manicminers_options`.
 
-
 ## How to connect to a running game
 
 From the Archipelago Launcher, open the Manic Miners Client. Connect using the URL and port of the server, and enter your Slot Name when prompted. **Warning: If you had a previous Archipelago save, and are starting a new game, make sure you have run `/reset_installation` first, else you will send a large number of checks you do not intend to!**
@@ -63,3 +62,11 @@ You can play offline (i.e. with the Client disconnected or closed) without any i
 Launch Manic Miners. Switch profiles to any profile other than 'Archipelago'. Close Manic Miners. 
 
 From the Archipelago Launcher, open the Manic Miners Client. Run `/clear_installation`. 
+
+## Linux Support
+
+See https://discord.com/channels/580269696369164299/602107487063113729/1142299701920677948 for general instructions on install Manic Miners under Lutris/Wine. Test it works normally before trying the Archipelago mod. 
+
+Install Archipelago natively, i.e. not under Wine. 
+
+Otherwise, follow the above instructions. There is only one extra step, which is that the Save File location is user-defined instead of assumed by the mod. Similar to the Level and Install directories, the first time you run a command that references the save file location (e.g. `/reset_installation`), you will be prompted to select the folder containining your Manic Miners save profiles. Like the other two settings, this too can be changed after the fact in Archipalego's host.yaml. 
