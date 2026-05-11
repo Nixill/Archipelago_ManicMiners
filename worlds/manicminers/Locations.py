@@ -293,31 +293,31 @@ TARGET_CLEAR_TIME_EASY = {
     "LRRR - Water Lot Of Fun": 1500, # 25:00
     "LRRR - Water Works": 3000, # 50:00
     
-    "LRRC - A Breath Of Fresh Air": 300, # 5:00
-    "LRRC - Air Raiders": 900, # 15:00
-    "LRRC - Back To Basics": 1080, # 18:00
-    "LRRC - Breathless": 240, # 04:00
-    "LRRC - Don't Panic": 300, # 05:00
-    "LRRC - Driller Night": 90, # 01:30
-    "LRRC - Erode Works": 480, # 08:00
-    "LRRC - Explosive Action": 270, # 04:30
-    "LRRC - Fire And Water": 840, # 14:00
-    "LRRC - Frozen Frenzy": 360, # 06:00
-    "LRRC - Hot Stuff": 840, # 14:00
-    "LRRC - Ice Spy": 510, # 08:30
-    "LRRC - It's A Hold Up": 210, # 03:30
-    "LRRC - Lake Of Fire": 390, # 06:30
-    "LRRC - Lava Laughter": 420, # 07:00
-    "LRRC - Oresome": 540, # 09:00
-    "LRRC - Rock Hard": 510, # 08:30
-    "LRRC - Rocky Horror": 1200, # 20:00
-    "LRRC - Rubble Trouble": 180, # 03:00
-    "LRRC - Run The Gauntlet": 300, # 05:00
-    "LRRC - Search And Rescue": 300, # 05:00
-    "LRRC - Split Down The Middle": 270, # 04:30
-    "LRRC - The Path To Power": 240, # 04:00
-    "LRRC - Water Lot Of Fun": 420, # 07:00
-    "LRRC - Water Works": 300, # 05:00
+    "LRRC - A Breath Of Fresh Air": 720, # 12:00
+    "LRRC - Air Raiders": 2400, # 40:00
+    "LRRC - Back To Basics": 2700, # 45:00
+    "LRRC - Breathless": 900, # 15:00
+    "LRRC - Don't Panic": 720, # 12:00
+    "LRRC - Driller Night": 300, # 05:00
+    "LRRC - Erode Works": 1200, # 20:00
+    "LRRC - Explosive Action": 720, # 12:00
+    "LRRC - Fire And Water": 1800, # 30:00
+    "LRRC - Frozen Frenzy": 900, # 15:00
+    "LRRC - Hot Stuff": 1800, # 30:00
+    "LRRC - Ice Spy": 1320, # 22:00
+    "LRRC - It's A Hold Up": 600, # 10:00
+    "LRRC - Lake Of Fire": 900, # 15:00
+    "LRRC - Lava Laughter": 960, # 16:00
+    "LRRC - Oresome": 1320, # 22:00
+    "LRRC - Rock Hard": 1440, # 24:00
+    "LRRC - Rocky Horror": 4500, # 75:00
+    "LRRC - Rubble Trouble": 480, # 08:00
+    "LRRC - Run The Gauntlet": 720, # 12:00
+    "LRRC - Search And Rescue": 720, # 12:00
+    "LRRC - Split Down The Middle": 720, # 12:00
+    "LRRC - The Path To Power": 600, # 10:00
+    "LRRC - Water Lot Of Fun": 960, # 16:00
+    "LRRC - Water Works": 720, # 12:00
     
     "BAZ - A Breath Of Fresh Air": 99999,
     "BAZ - Air Raiders": 99999,
@@ -423,31 +423,31 @@ TARGET_CLEAR_TIME_MEDIUM = {
     "LRRR - Water Lot Of Fun": 1080, # 18:00
     "LRRR - Water Works": 2280, # 38:00
     
-    "LRRC - A Breath Of Fresh Air": 300, # 5:00
-    "LRRC - Air Raiders": 900, # 15:00
-    "LRRC - Back To Basics": 1080, # 18:00
-    "LRRC - Breathless": 240, # 04:00
-    "LRRC - Don't Panic": 300, # 05:00
-    "LRRC - Driller Night": 90, # 01:30
-    "LRRC - Erode Works": 480, # 08:00
-    "LRRC - Explosive Action": 270, # 04:30
-    "LRRC - Fire And Water": 840, # 14:00
-    "LRRC - Frozen Frenzy": 360, # 06:00
-    "LRRC - Hot Stuff": 840, # 14:00
-    "LRRC - Ice Spy": 510, # 08:30
-    "LRRC - It's A Hold Up": 210, # 03:30
-    "LRRC - Lake Of Fire": 390, # 06:30
-    "LRRC - Lava Laughter": 420, # 07:00
-    "LRRC - Oresome": 540, # 09:00
-    "LRRC - Rock Hard": 510, # 08:30
-    "LRRC - Rocky Horror": 1200, # 20:00
-    "LRRC - Rubble Trouble": 180, # 03:00
-    "LRRC - Run The Gauntlet": 300, # 05:00
-    "LRRC - Search And Rescue": 300, # 05:00
-    "LRRC - Split Down The Middle": 270, # 04:30
-    "LRRC - The Path To Power": 240, # 04:00
-    "LRRC - Water Lot Of Fun": 420, # 07:00
-    "LRRC - Water Works": 300, # 05:00
+    "LRRC - A Breath Of Fresh Air": 450, # 7:30
+    "LRRC - Air Raiders": 1380, # 23:00
+    "LRRC - Back To Basics": 1620, # 27:00
+    "LRRC - Breathless": 600, # 10:00
+    "LRRC - Don't Panic": 480, # 08:00
+    "LRRC - Driller Night": 180, # 03:00
+    "LRRC - Erode Works": 720, # 12:00
+    "LRRC - Explosive Action": 420, # 07:00
+    "LRRC - Fire And Water": 1200, # 20:00
+    "LRRC - Frozen Frenzy": 600, # 10:00
+    "LRRC - Hot Stuff": 1200, # 20:00
+    "LRRC - Ice Spy": 840, # 14:00
+    "LRRC - It's A Hold Up": 360, # 06:00
+    "LRRC - Lake Of Fire": 600, # 10:00
+    "LRRC - Lava Laughter": 660, # 11:00
+    "LRRC - Oresome": 840, # 14:00
+    "LRRC - Rock Hard": 900, # 15:00
+    "LRRC - Rocky Horror": 2700, # 45:00
+    "LRRC - Rubble Trouble": 300, # 05:00
+    "LRRC - Run The Gauntlet": 450, # 07:30
+    "LRRC - Search And Rescue": 450, # 07:30
+    "LRRC - Split Down The Middle": 450, # 07:30
+    "LRRC - The Path To Power": 360, # 06:00
+    "LRRC - Water Lot Of Fun": 660, # 11:00
+    "LRRC - Water Works": 450, # 07:30
     
     "BAZ - A Breath Of Fresh Air": 99999,
     "BAZ - Air Raiders": 99999,
@@ -683,31 +683,31 @@ TARGET_CLEAR_TIME_ROCK_HARD = {
     "LRRR - Water Lot Of Fun": 480, # 08:00
     "LRRR - Water Works": 1140, # 19:00
     
-    "LRRC - A Breath Of Fresh Air": 300, # 5:00
-    "LRRC - Air Raiders": 900, # 15:00
-    "LRRC - Back To Basics": 1080, # 18:00
-    "LRRC - Breathless": 240, # 04:00
-    "LRRC - Don't Panic": 300, # 05:00
-    "LRRC - Driller Night": 90, # 01:30
-    "LRRC - Erode Works": 480, # 08:00
-    "LRRC - Explosive Action": 270, # 04:30
-    "LRRC - Fire And Water": 840, # 14:00
-    "LRRC - Frozen Frenzy": 360, # 06:00
-    "LRRC - Hot Stuff": 840, # 14:00
-    "LRRC - Ice Spy": 510, # 08:30
-    "LRRC - It's A Hold Up": 210, # 03:30
-    "LRRC - Lake Of Fire": 390, # 06:30
-    "LRRC - Lava Laughter": 420, # 07:00
-    "LRRC - Oresome": 540, # 09:00
-    "LRRC - Rock Hard": 510, # 08:30
-    "LRRC - Rocky Horror": 1200, # 20:00
-    "LRRC - Rubble Trouble": 180, # 03:00
-    "LRRC - Run The Gauntlet": 300, # 05:00
-    "LRRC - Search And Rescue": 300, # 05:00
-    "LRRC - Split Down The Middle": 270, # 04:30
-    "LRRC - The Path To Power": 240, # 04:00
-    "LRRC - Water Lot Of Fun": 420, # 07:00
-    "LRRC - Water Works": 300, # 05:00
+    "LRRC - A Breath Of Fresh Air": 240, # 4:00
+    "LRRC - Air Raiders": 720, # 12:00
+    "LRRC - Back To Basics": 900, # 15:00
+    "LRRC - Breathless": 180, # 03:00
+    "LRRC - Don't Panic": 240, # 04:00
+    "LRRC - Driller Night": 60, # 01:00
+    "LRRC - Erode Works": 360, # 06:00
+    "LRRC - Explosive Action": 210, # 03:30
+    "LRRC - Fire And Water": 660, # 11:00
+    "LRRC - Frozen Frenzy": 300, # 05:00
+    "LRRC - Hot Stuff": 660, # 11:00
+    "LRRC - Ice Spy": 420, # 07:00
+    "LRRC - It's A Hold Up": 180, # 03:00
+    "LRRC - Lake Of Fire": 330, # 05:30
+    "LRRC - Lava Laughter": 360, # 06:00
+    "LRRC - Oresome": 420, # 07:00
+    "LRRC - Rock Hard": 420, # 07:00
+    "LRRC - Rocky Horror": 900, # 15:00
+    "LRRC - Rubble Trouble": 120, # 02:00
+    "LRRC - Run The Gauntlet": 240, # 04:00
+    "LRRC - Search And Rescue": 240, # 04:00
+    "LRRC - Split Down The Middle": 210, # 03:30
+    "LRRC - The Path To Power": 180, # 03:00
+    "LRRC - Water Lot Of Fun": 330, # 05:30
+    "LRRC - Water Works": 240, # 04:00
     
     "BAZ - A Breath Of Fresh Air": 99999,
     "BAZ - Air Raiders": 99999,
