@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import pathlib
 import shutil
+import platform
 
 from BaseClasses import Item, ItemClassification
 from typing import TYPE_CHECKING
@@ -969,6 +970,11 @@ def copy_level_into_archipelago(root_dir, arch_level_dir, item_id, all_items):
             target = "\\BAZ - Water Works.dat"
         case _:
             return False
+    if platform.system() != "Windows":
+        main_level_dir = main_level_dir.replace("\\","/")
+        arch_level_dir = arch_level_dir.replace("\\","/")
+        source = source.replace("\\","/")
+        target = target.replace("\\","/")
     source_path = pathlib.Path(main_level_dir + source)
     target_path = pathlib.Path(arch_level_dir + target)
     shutil.copy(source_path, target_path)
