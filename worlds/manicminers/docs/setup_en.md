@@ -13,7 +13,7 @@ This page details the installation and play instructions. For a more general ove
 
 ## Required Software
 
-- [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest)
+- [Archipelago](https://github.com/ArchipelagoMW/Archipelago/releases/latest) - At least version 0.6.7.
 - [Manic Miners](https://baraklava.itch.io/manic-miners)
 - Either the latest [released copy](https://github.com/fogmike/Archipelago_ManicMiners/releases) of manicminers.apworld or the [current beta](../manicminers.apworld) directly from this repo
 
