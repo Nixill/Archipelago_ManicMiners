@@ -41,7 +41,6 @@ From the Archipelago Launcher, open the Manic Miners Client, and run `/reset_ins
 
 The very first time you do this, you will be prompted to select the folder that contains your Manic Miners custom Levels folder. This will be in your user's Documents, and you should select the '..../Documents/ManicMiners' folder (which will contain 'Levels'). Once selected for the first time, you don't need to do this again. Should you ever need to change this setting, you can find it in your Archipelago `host.yaml` under `manicminers_options`.
 
-
 ## How to connect to a running game
 
 From the Archipelago Launcher, open the Manic Miners Client. Connect using the URL and port of the server, and enter your Slot Name when prompted. **Warning: If you had a previous Archipelago save, and are starting a new game, make sure you have run `/reset_installation` first, else you will send a large number of checks you do not intend to!**
@@ -63,3 +62,7 @@ You can play offline (i.e. with the Client disconnected or closed) without any i
 Launch Manic Miners. Switch profiles to any profile other than 'Archipelago'. Close Manic Miners. 
 
 From the Archipelago Launcher, open the Manic Miners Client. Run `/clear_installation`. 
+
+## Tracking
+
+The inbuilt client commands can identify which levels are open but not yet complete, however they do not respect deeper logic, like ensuring you have the correct buildings or vehicles unlocked. It is recommended to use [Universal Tracker](https://archipelago.miraheze.org/wiki/Universal_Tracker) for fuller tracking. The main caveat with UT and Manic Miners is that if your goal requires you to clear 25 levels, then you must clear them locally, not just have Archipelago think they're cleared (e.g. if someone else in the multiworld collects your "Clear Level: " locations). Therefore the inbuilt client commands separately list the number of levels cleared locally, not just in the multiworld state.

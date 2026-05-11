@@ -87,14 +87,14 @@ I'm sure there's issues hiding just out of sight, like Slimy Slugs waiting to st
 
 Manic Miners created by:
 
-Baraklava
+- Baraklava
 
 AP Mod created and maintained by:
 
-fogmike
+- fogmike
 
 The following users have been of particular help with this mod, via various playtesting/suggestions/research/feedback:
 
-jurjen909
-Nixill
-Ruinae Retroque Rursus
+- jurjen909
+- Nixill
+- Ruinae Retroque Rursus
