@@ -66,3 +66,11 @@ From the Archipelago Launcher, open the Manic Miners Client. Run `/clear_install
 ## Tracking
 
 The inbuilt client commands can identify which levels are open but not yet complete, however they do not respect deeper logic, like ensuring you have the correct buildings or vehicles unlocked. It is recommended to use [Universal Tracker](https://archipelago.miraheze.org/wiki/Universal_Tracker) for fuller tracking. The main caveat with UT and Manic Miners is that if your goal requires you to clear 25 levels, then you must clear them locally, not just have Archipelago think they're cleared (e.g. if someone else in the multiworld collects your "Clear Level: " locations). Therefore the inbuilt client commands separately list the number of levels cleared locally, not just in the multiworld state.
+
+## Linux Support
+
+See https://discord.com/channels/580269696369164299/602107487063113729/1142299701920677948 for general instructions on install Manic Miners under Lutris/Wine. Test it works normally before trying the Archipelago mod. 
+
+Install Archipelago natively, i.e. not under Wine. 
+
+Otherwise, follow the above instructions. There is only one extra step, which is that the Save File location is user-defined instead of assumed by the mod. Similar to the Level and Install directories, the first time you run a command that references the save file location (e.g. `/reset_installation`), you will be prompted to select the folder containining your Manic Miners save profiles. Like the other two settings, this too can be changed after the fact in Archipalego's host.yaml. 

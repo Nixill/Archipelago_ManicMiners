@@ -1567,10 +1567,7 @@ def create_events(world: ManicMinersWorld) -> None:
             # region_baz_waterworks.add_event("Completable: BAZ - Water Works", "Level Completed", location_type=ManicMinersLocation, item_type=Items.ManicMinersItem)
         
 
-def check_for_victory(options):
-    if platform.system() == "Windows":
-        lad = os.getenv('LOCALAPPDATA')
-        save_path = lad + "\\ManicMiners\\Saved\\SaveGames\\Profiles\\Archipelago.sav"
+def check_for_victory(options,save_path):
     levelDataList = ParseSaveFile.parseAllLevelsFromFilepath(save_path)
     
     if options["victory_condition"] == 0: # total_level_count
@@ -1655,10 +1652,7 @@ def check_for_victory(options):
     #shouldn't hit this, but to make sure we return something
     return False
   
-def get_locations_from_save_data(options):
-    if platform.system() == "Windows":
-        lad = os.getenv('LOCALAPPDATA')
-        save_path = lad + "\\ManicMiners\\Saved\\SaveGames\\Profiles\\Archipelago.sav"
+def get_locations_from_save_data(options,save_path):
     levelDataList = ParseSaveFile.parseAllLevelsFromFilepath(save_path)
     
     location_ids = []
